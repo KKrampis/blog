@@ -1,0 +1,9 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-book"
+
+[params]
+  BookTheme = 'auto'
+  BookToC = true
+  BookLogo = 'profile.jpg'
