@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Prof. Krampis Blog'
-theme = "hugo-book"
+theme = "hugo-theme-relearn"
 
 [markup]
   [markup.goldmark]
@@ -13,9 +13,6 @@ theme = "hugo-book"
           inline = [['$', '$']]
 
 [params]
-  BookTheme = 'dark'
-  BookToC = true
-  BookLogo = 'me.jpg'
-  disablePathToLower = true
-  enableGitInfo = true
   math = true
+  showVisitedLinks = true
+

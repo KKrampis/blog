@@ -12,7 +12,7 @@ This pattern suggests that LLMs are more inclined to make errors that are closer
 representation space' rather than in numerical value, highlighting a unique aspect of how
 numbers are encoded.
 
-The authors used [linear probes](https://nlp.stanford.:edu/~johnhew/interpreting-probes.html)
+The authors used [linear probes](https://nlp.stanford.edu/~johnhew/interpreting-probes.html)
 and found that the models encode numbers using circular representations in base 10 rather than
 single digit representations. This research was conducted with the "Llama 3" model, with
 8 billion parameters, tested with 5,000 queries to explore the nature of its numerical
@@ -61,7 +61,7 @@ at layer $k$, and $y_j$ signifies the $j$-th digit of the number in consideratio
 $\text{circular}_p(t)$ is defined as:
 
 \[
-\text{circular}_p(t) = \left\cos\left(\frac{2\pi t}{p}\right),\sin\left(\frac{2\pi t}{p}\right) \right
+\text{circular}_p(t) = \left\cos\left(\frac{2\pi t}{p}\right),\sin\left(\frac{2\pi t}{p}\right)\right
 \]
 
 This function maps a digit in base $p$ to a point on the unit circle, effectively encoding

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prof. Krampis Blog</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Prof. Krampis Blog</description>
+    <link>//localhost:1313/index.html</link>
+    <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Number Understanding in LLMs</title>
-      <link>//localhost:1313/docs/math/arithmetic-in-llm/</link>
+      <title>Docs</title>
+      <link>//localhost:1313/docs/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/math/arithmetic-in-llm/</guid>
-      <description>&lt;p&gt;We will first look at a 2024 &lt;a href=&#34;https://arxiv.org/abs/2410.11781&#34;&gt;study&lt;/a&gt; by Levy and Mor, were it&#xA;was investigated how Large Language Models (LLMs) handle numerical tasks by assessing whether these&#xA;models internally process the digits of numbers similarly to other characters, as opposed to comprehending&#xA;actual numeric values. Their findings indicated that numerical errors made by LLMs in&#xA;addition problems like &amp;ldquo;132+238+324+139&amp;rdquo;, which sums to 833, tend to reflect digit similarity&#xA;errors such as &amp;ldquo;633&amp;rdquo; or &amp;ldquo;823&amp;rdquo;, rather than errors closer in numeric value like &amp;ldquo;831&amp;rdquo; or &amp;ldquo;834&amp;rdquo;.&#xA;This pattern suggests that LLMs are more inclined to make errors that are closer in &amp;lsquo;digit&#xA;representation space&amp;rsquo; rather than in numerical value, highlighting a unique aspect of how&#xA;numbers are encoded.&lt;/p&gt;</description>
+      <guid>//localhost:1313/docs/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMs and Maths</title>
+      <link>//localhost:1313/llms-and-math/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/llms-and-math/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
