@@ -1,9 +1,21 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Prof. Krampis Blog'
 theme = "hugo-book"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]']]
+          inline = [['$', '$']]
+
 [params]
-  BookTheme = 'auto'
+  BookTheme = 'dark'
   BookToC = true
-  BookLogo = 'profile.jpg'
+  BookLogo = 'me.jpg'
+  disablePathToLower = true
+  enableGitInfo = true
+  math = true

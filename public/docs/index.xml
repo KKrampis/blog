@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on My New Hugo Site</title><link>//localhost:1313/docs/</link><description>Recent content in Docs on My New Hugo Site</description><generator>Hugo</generator><language>en-us</language><atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>//localhost:1313/docs/neuroscope/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>//localhost:1313/docs/neuroscope/</guid><description>&lt;p>In a recent project, I aimed to harness the power of &lt;strong>Neuroscope&lt;/strong> (created by &lt;a href="https://github.com/neelnanda-io">Neel Nanda&lt;/a> and made available on &lt;a href="https://colab.research.google.com/github/neelnanda-io/TransformerLens/blob/main/demos/Interactive_Neuroscope.ipynb">Google Collab&lt;/a>), an open-source tool designed for visualizing neuron activations in neural networks. Neuroscope provides researchers and practitioners alike with an intuitive interface for monitoring various neuron activation metrics, making it invaluable for understanding how models process and interpret information. By leveraging Neuroscope in conjunction with the large-scale language model &lt;strong>GPT-J-6B&lt;/strong>, which features approximately 6 billion parameters. One of the significant modifications I made to the original code was to visualize only those neurons exhibiting substantial activation values—specifically, those exceeding a threshold of 3 (highlighted in Red) or dropping below 0 (highlighted in Blue). With this approach I selected between 50 and 500 neurons from each layer of the model, out of a total of 16,384 neurons. By focusing on the most significantly active neurons, I aimed to identify distinct activation patterns that could provide some understanding of the model&amp;rsquo;s internal mechanisms.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Prof. Krampis Blog</title>
+    <link>//localhost:1313/docs/</link>
+    <description>Recent content in Docs on Prof. Krampis Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Number Understanding in LLMs</title>
+      <link>//localhost:1313/docs/math/arithmetic-in-llm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/math/arithmetic-in-llm/</guid>
+      <description>&lt;p&gt;We will first look at a 2024 &lt;a href=&#34;https://arxiv.org/abs/2410.11781&#34;&gt;study&lt;/a&gt; by Levy and Mor, were it&#xA;was investigated how Large Language Models (LLMs) handle numerical tasks by assessing whether these&#xA;models internally process the digits of numbers similarly to other characters, as opposed to comprehending&#xA;actual numeric values. Their findings indicated that numerical errors made by LLMs in&#xA;addition problems like &amp;ldquo;132+238+324+139&amp;rdquo;, which sums to 833, tend to reflect digit similarity&#xA;errors such as &amp;ldquo;633&amp;rdquo; or &amp;ldquo;823&amp;rdquo;, rather than errors closer in numeric value like &amp;ldquo;831&amp;rdquo; or &amp;ldquo;834&amp;rdquo;.&#xA;This pattern suggests that LLMs are more inclined to make errors that are closer in &amp;lsquo;digit&#xA;representation space&amp;rsquo; rather than in numerical value, highlighting a unique aspect of how&#xA;numbers are encoded.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
