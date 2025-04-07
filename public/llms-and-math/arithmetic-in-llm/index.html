@@ -21,17 +21,17 @@
     <meta itemprop="description" content="We will first look at a 2024 study by Levy and Mor, were it was investigated how Large Language Models (LLMs) handle numerical tasks by assessing whether these models internally process the digits of numbers similarly to other characters, as opposed to comprehending actual numeric values. Their findings indicated that numerical errors made by LLMs in addition problems like “132&#43;238&#43;324&#43;139”, which sums to 833, tend to reflect digit similarity errors such as “633” or “823”, rather than errors closer in numeric value like “831” or “834”. This pattern suggests that LLMs are more inclined to make errors that are closer in ‘digit representation space’ rather than in numerical value, highlighting a unique aspect of how numbers are encoded.">
     <meta itemprop="wordCount" content="856">
     <title>Number Understanding in LLMs :: Prof. Krampis Blog</title>
-    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1743801858" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1743801858" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1743801858" rel="stylesheet">
-    <link href="/css/theme.css?1743801858" rel="stylesheet">
-    <link href="/css/format-html.css?1743801858" rel="stylesheet" id="R-format-style">
-    <link href="/css/auto-complete/auto-complete.min.css?1743801858" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1743801858" defer></script>
-    <script src="/js/lunr/lunr.min.js?1743801858" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1743801858" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1743801858" defer></script>
-    <script src="/js/lunr/lunr.en.min.js?1743801858" defer></script>
-    <script src="/js/search.js?1743801858" defer></script>
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1744053961" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1744053961" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1744053961" rel="stylesheet">
+    <link href="/css/theme.css?1744053961" rel="stylesheet">
+    <link href="/css/format-html.css?1744053961" rel="stylesheet" id="R-format-style">
+    <link href="/css/auto-complete/auto-complete.min.css?1744053961" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1744053961" defer></script>
+    <script src="/js/lunr/lunr.min.js?1744053961" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1744053961" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1744053961" defer></script>
+    <script src="/js/lunr/lunr.en.min.js?1744053961" defer></script>
+    <script src="/js/search.js?1744053961" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -41,7 +41,7 @@
       window.relearn.relBaseUri='..\/..';
       window.relearn.absBaseUri='\/\/localhost:1313';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/searchindex.en.js?1743801858";
+      window.relearn.index_js_url="/searchindex.en.js?1744053961";
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -255,7 +255,7 @@ individual digit values, ultimately confirming the base-10 representation hypoth
       <div id="R-content-wrapper" class="highlightable">
         <div class="R-sidebarmenu R-shortcutmenu-main">
           <ul class="enlarge morespace collapsible-menu">
-            <li class="" data-nav-id="/docs/index.html"><a class="padding" href="/docs/index.html">Docs<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-b5fa667da3c6d162416dac7e8c63bf8a" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/interpretability/index.html"><a class="padding" href="/interpretability/index.html">Interpretabilities<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-dfaae71a3e3b0eceab17fb5be96efe0a" class="collapsible-menu"></ul></li>
             <li class="parent " data-nav-id="/llms-and-math/index.html"><a class="padding" href="/llms-and-math/index.html">LLMs and Maths<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-e1fd4a3a8d0d6f8fee5e513f900a1a9c" class="collapsible-menu">
             <li class="active " data-nav-id="/llms-and-math/arithmetic-in-llm/index.html"><a class="padding" href="/llms-and-math/arithmetic-in-llm/index.html">Number Understanding in LLMs<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
           </ul>
@@ -285,8 +285,8 @@ individual digit values, ultimately confirming the base-10 representation hypoth
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/js/clipboard/clipboard.min.js?1743801858" defer></script>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1743801858" defer></script>
+    <script src="/js/clipboard/clipboard.min.js?1744053961" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1744053961" defer></script>
     <script>
       window.MathJax = Object.assign( window.MathJax || {}, {
         tex: {
@@ -298,7 +298,7 @@ individual digit values, ultimately confirming the base-10 representation hypoth
         }
       }, JSON.parse("{}") );
     </script>
-    <script id="MathJax-script" async src="/js/mathjax/tex-mml-chtml.js?1743801858"></script>
-    <script src="/js/theme.js?1743801858" defer></script>
+    <script id="MathJax-script" async src="/js/mathjax/tex-mml-chtml.js?1744053961"></script>
+    <script src="/js/theme.js?1744053961" defer></script>
   </body>
 </html>

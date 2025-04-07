@@ -4,16 +4,16 @@
     <loc>//localhost:1313/categories/index.html</loc>
   </url>
   <url>
-    <loc>//localhost:1313/docs/index.html</loc>
+    <loc>//localhost:1313/interpretability/index.html</loc>
   </url>
   <url>
     <loc>//localhost:1313/llms-and-math/index.html</loc>
   </url>
   <url>
-    <loc>//localhost:1313/docs/math/arithmetic-in-llm/index.html</loc>
+    <loc>//localhost:1313/llms-and-math/arithmetic-in-llm/index.html</loc>
   </url>
   <url>
-    <loc>//localhost:1313/llms-and-math/arithmetic-in-llm/index.html</loc>
+    <loc>//localhost:1313/interpretability/neuroscope/index.html</loc>
   </url>
   <url>
     <loc>//localhost:1313/index.html</loc>
