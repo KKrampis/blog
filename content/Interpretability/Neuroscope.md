@@ -1,7 +1,7 @@
 ---
-title: "Peering into small LLM models brains"
+title: "Peering into LLM models"
 ---
-e
+
 
 In a recent project, I aimed to harness the power of **Neuroscope**
 (created by [Neel Nanda](https://github.com/neelnanda-io) and made
