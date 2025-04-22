@@ -1,4 +1,6 @@
-## Features in Transformer Large Language Models (LLMs): A Mechanistic Explainability Perspective
+---
+title: "Features in Transformer LLMs and Mechanistic Interpretability"
+---
 
 The concept of “features” within the context of Transformer models, and Large Language Models (LLMs) more broadly, lies at the heart of much current research in AI mechanistic explainability. Traditional machine learning often defines features as explicitly engineered attributes of the input data, carefully chosen to highlight relevant information. However, in the context of LLMs, features *emerge* from the training process itself, represented by the activations of neurons across the network’s layers. These are not pre-defined; rather, they are learned representations that capture patterns, relationships, and concepts present in the training data.  Understanding these emergent features is crucial for interpreting how the model arrives at its conclusions, a core goal of mechanistic explainability.  We need to move beyond simply observing *what* the model does to understanding *why* it does it, and features are the primary vehicle for this understanding.  The challenge is deciphering what specific concepts or patterns each feature encodes, and how those features interact to produce the model’s output. 
 
