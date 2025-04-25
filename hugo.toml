@@ -9,10 +9,9 @@ theme = "hugo-theme-relearn"
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]']]
-          inline = [['$', '$']]
+          block = [['++++', '++++']]
 
 [params]
   math = true
-  showVisitedLinks = true
-
+  themeVariant = ['zen-dark', 'zen-light']
+  linkTitle = 'AI Interpretability Writings'

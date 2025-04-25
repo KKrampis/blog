@@ -4,6 +4,9 @@
     <loc>//localhost:1313/categories/index.html</loc>
   </url>
   <url>
+    <loc>//localhost:1313/interpretability/features/index.html</loc>
+  </url>
+  <url>
     <loc>//localhost:1313/interpretability/index.html</loc>
   </url>
   <url>
@@ -14,9 +17,6 @@
   </url>
   <url>
     <loc>//localhost:1313/interpretability/neuroscope/index.html</loc>
-  </url>
-  <url>
-    <loc>//localhost:1313/index.html</loc>
   </url>
   <url>
     <loc>//localhost:1313/tags/index.html</loc>
