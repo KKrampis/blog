@@ -1,0 +1,29 @@
+== Attention Explained
+:stem:
+
+## Scaled Dot-Product Attention: A Deep Dive into the Mechanism
+
+The FIG depicts the core mechanism underpinning much of the success of Transformer models: Scaled Dot-Product Attention.  This is a key concept, particularly in the context of understanding AI explainability, because it fundamentally defines how the model weighs different parts of the input sequence when making predictions. The FIG illustrates the flow of information, starting with input matrices representing Queries (Q), Keys (K), and Values (V).  The process begins with a matrix multiplication between Q and latexmath:[K^{T}] (the transpose of K). This operation computes a similarity score between each query and each key.  Mathematically, this is represented as:
+
+latexmath:[\text{Attention Scores} = Q K^T]
+
+Here, Q is a matrix of shape latexmath:[(N, d_k)], representing the queries, where N is the sequence length and latexmath:[d_k] is the dimensionality of the queries and keys. K is a matrix of shape latexmath:[(N, d_k)].  Therefore, latexmath:[K^T] has shape latexmath:[(d_k, N)].  The resulting matrix, `Attention Scores`, has shape latexmath:[(N, N)].  Each element latexmath:[(i, j)] in this matrix represents the compatibility between the i-th query and the j-th key.  A higher score indicates a stronger relationship.  This initial score is then *scaled* by the square root of the dimensionality of the keys (latexmath:[{\sqrt{d_k}}]). This scaling is critical for preventing the dot products from becoming excessively large, which can push the softmax function into regions where gradients are very small, hindering learning.  The scaled scores are given by:
+
+latexmath:[\text{Scaled Attention Scores} = \frac{QK^T}{\sqrt{d_k}}]
+
+The purpose of this scaling is to stabilize training.  Without it, the variance of the dot products can grow with latexmath:[d_k], leading to saturation of the softmax function.  The next step involves an optional masking operation. This masking is employed in scenarios like decoder self-attention, where we want to prevent the model from “looking ahead” at future tokens in the sequence during training.  The mask is typically a lower triangular matrix with -infinity values for the elements we want to ignore and 0 elsewhere.  Adding this mask to the scaled attention scores effectively sets the attention weights for the masked positions to zero after the softmax operation.  Finally, the scaled (and potentially masked) attention scores are passed through a softmax function. This converts the scores into probabilities, representing the attention weights assigned to each value.
+
+latexmath:[\text{Attention Weights} = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})]
+
+The softmax function ensures that the attention weights sum to 1 along each row, allowing the model to focus on the most relevant parts of the input sequence.  The output of the softmax is then multiplied by the Value matrix (V).  Mathematically:
+
+latexmath:[\text{Output} = \text{Attention Weights} \cdot V]
+
+V is a matrix of shape latexmath:[(N, d_v)], where latexmath:[d_v] is the dimensionality of the values.  The resulting output matrix has shape latexmath:[(N, d_v)]. This weighted sum of values represents the context vector, which encapsulates the relevant information from the input sequence based on the attention weights.  The entire process, from query-key similarity to weighted value aggregation, allows the model to dynamically adjust its focus on different parts of the input sequence, enabling it to capture long-range dependencies and contextual relationships.  It is important to note that this is a single attention *head*.  Multi-Head Attention, a crucial extension of this mechanism, involves performing this entire process multiple times in parallel with different learned linear projections of Q, K, and V. The outputs of these multiple heads are then concatenated and linearly transformed to produce the final output.
+
+
+From an interpretability perspective, the attention weights provide valuable insights into the model’s decision-making process. By visualizing these weights, we can identify which parts of the input sequence the model is focusing on when making predictions. This can help us understand *why* the model made a particular decision and identify potential biases or vulnerabilities. For example, if a model is classifying images, we can visualize the attention weights to see which regions of the image the model is attending to. If the model is attending to irrelevant features, it may indicate a problem with the training data or the model architecture.  Furthermore, the attention mechanism provides a degree of explainability that is absent in many other deep learning models.  While it doesn't provide a complete explanation of the model's behavior, it offers a window into the model's internal workings.  However, it's crucial to remember that attention weights are not necessarily equivalent to importance. The model might attend to a particular region of the input simply because it's a strong predictor, even if it's not the most semantically meaningful feature. Therefore, it's important to interpret attention weights with caution and consider other interpretability techniques to gain a more complete understanding of the model's behavior. Tools for visualizing attention are commonplace in deep learning frameworks, and understanding the core mathematical operations which govern attention is crucial for a graduate student.
+
+
+
+Finally, consider the computational complexity of the Scaled Dot-Product Attention mechanism.  The matrix multiplication latexmath:[QK^T] has a complexity of latexmath:[O(N^2 d_k)].  The subsequent steps (scaling, masking, softmax, and matrix multiplication with V

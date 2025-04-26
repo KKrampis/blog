@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI Models Architectures</title>
+      <link>//localhost:1313/ai-models-architecture/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/ai-models-architecture/index.html</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Interpretabilities</title>
       <link>//localhost:1313/interpretability/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

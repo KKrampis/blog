@@ -9,7 +9,12 @@ theme = "hugo-theme-relearn"
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['++++', '++++']]
+          block = [['++++', '++++'], ['\[','\]'] ]
+          inline = [['$','$'], ['latexmath:[',']']]
+
+[security]
+    [security.exec]
+      allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
 
 [params]
   math = true

@@ -61,7 +61,7 @@ at layer $k$, and $y_j$ signifies the $j$-th digit of the number in consideratio
 $\text{circular}_p(t)$ is defined as:
 
 \[
-\text{circular}_p(t) = \left\cos\left(\frac{2\pi t}{p}\right),\sin\left(\frac{2\pi t}{p}\right) \right
+\text{circular}_p(t) = \left( \cos\left(\frac{2\pi t}{p}\right), \sin\left(\frac{2\pi t}{p}\right) \right)
 \]
 
 This function maps a digit in base $p$ to a point on the unit circle, effectively encoding
