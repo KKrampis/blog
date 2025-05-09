@@ -4,10 +4,16 @@
     <loc>//localhost:1313/ai-models-architecture/index.html</loc>
   </url>
   <url>
+    <loc>//localhost:1313/ai-models-architecture/attention/index.html</loc>
+  </url>
+  <url>
     <loc>//localhost:1313/categories/index.html</loc>
   </url>
   <url>
     <loc>//localhost:1313/interpretability/features/index.html</loc>
+  </url>
+  <url>
+    <loc>//localhost:1313/ai-models-architecture/graddesc/index.html</loc>
   </url>
   <url>
     <loc>//localhost:1313/interpretability/index.html</loc>
@@ -23,5 +29,8 @@
   </url>
   <url>
     <loc>//localhost:1313/tags/index.html</loc>
+  </url>
+  <url>
+    <loc>//localhost:1313/index.html</loc>
   </url>
 </urlset>

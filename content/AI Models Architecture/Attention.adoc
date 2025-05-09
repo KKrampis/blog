@@ -1,11 +1,12 @@
-== Attention Explained
-:stem:
+---
+title: "Attention Explained"
+---
 
 ## Scaled Dot-Product Attention: A Deep Dive into the Mechanism
 
 The FIG depicts the core mechanism underpinning much of the success of Transformer models: Scaled Dot-Product Attention.  This is a key concept, particularly in the context of understanding AI explainability, because it fundamentally defines how the model weighs different parts of the input sequence when making predictions. The FIG illustrates the flow of information, starting with input matrices representing Queries (Q), Keys (K), and Values (V).  The process begins with a matrix multiplication between Q and latexmath:[K^{T}] (the transpose of K). This operation computes a similarity score between each query and each key.  Mathematically, this is represented as:
 
-latexmath:[\text{Attention Scores} = Q K^T]
+latexmath:[Attention Scores = Q K^T]
 
 Here, Q is a matrix of shape latexmath:[(N, d_k)], representing the queries, where N is the sequence length and latexmath:[d_k] is the dimensionality of the queries and keys. K is a matrix of shape latexmath:[(N, d_k)].  Therefore, latexmath:[K^T] has shape latexmath:[(d_k, N)].  The resulting matrix, `Attention Scores`, has shape latexmath:[(N, N)].  Each element latexmath:[(i, j)] in this matrix represents the compatibility between the i-th query and the j-th key.  A higher score indicates a stronger relationship.  This initial score is then *scaled* by the square root of the dimensionality of the keys (latexmath:[{\sqrt{d_k}}]). This scaling is critical for preventing the dot products from becoming excessively large, which can push the softmax function into regions where gradients are very small, hindering learning.  The scaled scores are given by:
 

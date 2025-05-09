@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prof. Krampis Blog</title>
+    <title>Prof. K.Krampis Blog :: Prof. Krampis Blog</title>
     <link>//localhost:1313/index.html</link>
-    <description></description>
+    <description>Decoding the Black Box: My Journey into LLM Interpretability &amp; the Future of AI Explainability&#xA;Welcome to my blog, dedicated to unraveling the fascinating inner workingsof Large Language Models (LLMs) and Artifial Intelligence! As a researcher deeply fascinated by the inner workings of AI, I believe understanding how these models arrive at their answers is just as important – if not more so – than the answers themselves. This blog will focus on “mechanistic interpretability” – the practice of dissecting LLMs to identify the specific patterns of activation, or “features,” within their neural networks that correspond to different concepts and abilities. My goal isn’t just to describe what these models do, but to build a genuine understanding of their internal logic.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
