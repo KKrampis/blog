@@ -1,0 +1,644 @@
+---
+title: "Curriculum Vitae"
+---
+
+=== *[.underline]#Konstantinos Krampis, PhD#*
+
+==== *Associate Professor, Hunter College, City University of New York*
+
+https://www.linkedin.com/in/kkrampis[LinkedIn], 
+https://github.com/KKrampis[Github], 
+https://kkrampis.github.io/blog/[AI/ML Research Blog] and  
+https://medium.com/@agbiotec[Medium] (in progress), 
+https://www.gc.cuny.edu/people/konstantinos-krampis[CUNY Faculty webpage].
+
+
+==== *[.underline]#AI/ML Highlights#*
+
+Machine Learning for Bioinformatics course taught at CUNY since 2020, covering ANNs, Transformers and ML Math.
+
+Computational Molecular Biology tought since 2015, with AI / ML for Bioinformatics included in course as of 2020.
+
+https://github.com/KKrampis/GraphML-Bioinformatics-Course/tree/main/BioinformAI[Python Jupyter notebooks] for GraphML course taught at CUNY.
+
+https://github.com/KKrampis/AutomaTikZ/commits/main/[Extended AI Latex graph (TikZ) app] to utilize models from HuggingFace Inference Endpoints.
+
+https://github.com/KKrampis/codex.nvim/commits/main/[Modified Neovim plugin] to run OpenAI Codex as panel within the editor. 
+
+https://github.com/KKrampis/Bioinform-Geometric-ML-Paper[Paper as code on Geometric Deep Learning], symmetry and ANN introduction.
+
+https://github.com/KKrampis/biocompute-object-llm[OpenAI Assistants (agent) for bioinformatics extraction from literature] and https://vimeo.com/954746148[Vimeo talk].
+
+https://github.com/KKrampis/explainableAI[Book on Explainable AI (early draft)] to be written agentically as interlinked AsciiDoc pages.
+
+https://www.jcvi.org/research/jcvi-cloud-biolinux[Cloud BioLinux founder] first (circa 2012) AWS deployment of Bioinformatics cloud tools.
+
+
+==== *[.underline]#Education#*
+
+*06/2003 – 05/2009*   Virginia Tech, Blacksburg, VA Ph.D. Bioinformatics
+
+*09/1997 - 06/2003*   University of Athens, Athens, Greece B.S., M.S., Biotechnology
+
+==== *[.underline]#Employment#*
+
+*08/2003 – 05/2009*   Virginia Bioinformatics Institute Research Assistant
+Bioinformatics
+
+*05/2009 – 04/2014*   J. Craig Venter Institute Assistant Professor
+Bioinformatics
+
+*09/2014 – 09/2018*   Hunter College, CUNY Director of Bioinformatics CTBR
+
+*09/2014 – Present*   Associate Professor, Biological Sciences, Hunter College, CUNY 
+
+*09/2014 – Present*   Hunter College, CUNY Associate Professor Biology & Computer
+Science Programs at the CUNY Graduate Center
+
+*02/2015 – Present*   Weil Cornell Medical College Adjunct Faculty
+Computational Biomedicine
+
+*09/2018 – Present*   Hunter College, CUNY Director of Bioinformatics CCHDR
+
+
+==== *[.underline]#Research Awards:#*
+
+*2024-2025*   AI for Multimodal Analysis of the All of Us Dataset, $127,389
+
+*2024-2025*  PSC CUNY Research Award, $3,500
+
+*2024-2025*   Bioinformatics and Biostatistics Core, Hunter College, $39,468
+
+*2022-2023*   CTSC Grant, Weill Cornell Medicine, $44,000
+
+*2020-2021*   PSC CUNY Research Award, $6,000
+
+*2020-2021*   Temple University / Fox Chase Center Pilot Research Award, $9,500
+
+*2018-2023*   Bioinformatics and Biostatistics Core, Temple University –
+Hunter College, City University of New York U54 Partnership, National
+Institutes of Health, $404,635
+
+*2018-2019*   CUNY Advanced Science Research Center Award, $14,040
+
+*2017-2020*   CUNY Advanced Science Research Center Award, $43,680
+
+*2017-2018*   CUNY Advanced Science Research Center Seed Award, $10,000
+
+*2016-2017*   NIMHD Award, National Institutes of Health, $123,453
+
+*2015-2017*   CTSC Pilot Award, Weill Cornell Medicine, $94,885
+
+*2014*    Faculty startup grant, City University of New York, $150,000
+
+*2014*    NIMHD Award, National Institutes of Health, $485,000
+
+*2012-2016*     Research Award, Advances in Biological Informatics Program,
+National Science Foundation, $4,992,581
+
+
+
+==== *[.underline]#Teaching at the City University of New York#*
+
+*2014 - 2015* Introduction to Python Programming
+
+*2015 - 2019* Genomic Sequencing and Bioinformatics Data Science
+
+*2015 - current* Computational Molecular Biology with Machine Learning
+
+*2020 - current* Machine Learning for Bioinformatics
+
+In addition to the courses above, I have mentored and trained many
+undergraduate students in my laboratory who performed research and
+presented at the Hunter College Undergraduate STEM Conference, the
+SPEECH Cancer Health Disparities Conference and additional scientific
+meetings. 
+
+(Details further in the student section of the CV).
+
+
+
+==== *[.underline]#Peer-reviewed Publications#*
+
+===== *Bioinformatics, Machine Learning, Cloud Computing*
+
+Krampis, K., Ross, E., Ogunwobi, O., Ma, G., Mazumder, R., Wultsch, C.
+(2023) _“Principles of Artificial Neural Networks and Machine Learning
+for Bioinformatics Applications”_. Preprints.org, 2023060042.
+
+Krampis K. (_2021_) _“Democratizing access to genomics and personalized
+medicine for underrepresented research and clinical institutions through
+easily accessible bioinformatics platforms”. BioTechniques_ 72
+(2):36-38.
+
+Brown SM, Chen H, Hao Y, Laungani BP, Ali TA, Dong C,
+Lijeron C, Kim B, Wultsch C, Pei Z and Krampis K. _(2019)_. “_MGS-Fast:
+Metagenomic shotgun data fast annotation using microbial gene
+Catalogs_”. _GigaScience_ 8:20, giz020.
+
+Kim B, Ali TA, Dong C, Lijeron C, Mazumder R, Wultsch C
+and Krampis K. _(2019)_. “_miCloud: A Plug-nPlay, Extensible,
+On-Premises Bioinformatics Cloud for Seamless Execution of Complex
+NextGeneration Sequencing Data Analysis Pipelines_”. _Journal of
+Computational Biology_ 26:280-284.
+
+Ali TA, Kim B, Lijeron C, Changsu D, Wultsch C and
+Krampis K. _(2018)._ “_Implementation of a Reproducible, Accessible and
+Transparent RNA-seq Bioinformatics Pipeline within the Galaxy
+Platform_”. _Journal of Computer Science and Systems Biology_
+1(3):195-199.
+
+Dong C, Lee R, Sayad J and Krampis K. _(2018)._
+“_Bioinformatics Programming for Bioavailability Analysis of Sequence
+Patterns in Public Genomic Databases_”. _Advances in Bioequivalence and
+Bioavailability_ 1(2):1-4.
+
+Jensen TL, Frasketi M, Conway K, Villarroel L, Hill H, Krampis K and
+Goll JB. _(2017)._ “_RSEQREP: RNA-Seq Reports, an open-source
+cloud-enabled framework for reproducible RNA-Seq data processing,
+analysis, and result reporting_”. _F1000Research_ 6:2162.
+
+Kim B, Ali TA, Lijeron C, Afgan E and Krampis K.
+(_2017_). “_Bio-Docklets: virtualization containers for single-step
+execution of NGS pipelines_”. _GigaScience._ 6(8):1-7.
+
+Das DK, Ali TA, Krampis K and Ogunwobi OO. (_2017_).
+“_Fibronectin and androgen receptor expression data in prostate cancer
+obtained from a RNA-sequencing bioinformatics analysis_”. _Data in
+Brief_ 11:131-5.
+
+Kim B, Ali TA and Krampis K. _(2016)._ “_The Visual
+Omics Explorer (VOE): a Cross-Platform Portal for Omics Data
+Visualization_”. _BMC Bioinformatics_ 32(13):2050-2052.
+
+Krampis K and Wultsch C. _(2015)._ “_A Review of Cloud Computing
+Bioinformatics Solutions for Next-Gen Sequencing Data Analysis and
+Research_”. _Methods in Next Generation Sequencing_ 2(1).
+
+Kumari P, Mazumder R, Simonyan V and Krampis K. _(2015)._ “_Advantages
+of distributed and parallel algorithms that leverage Cloud Computing
+platforms for large-scale genome assembly_”. _F1000 Research_ 4(20).
+
+Krishnakumar V, Hanlon MR, Contrino S, Ferlanti ES, Karamycheva S, Kim
+M, ... Krampis K et al. _(2014)._ “_Araport: the Arabidopsis Information
+Portal_”. _Nucleic Acids Research_ 28; 43:1003–1009.
+
+Krampis K, Booth T, Chapman B, Tiwari B, Field D and Nelson KE.
+_(2012)._ “_Cloud Biolinux: pre-configured and on-demand computing for
+the genomics community_”. _BMC Bioinformatics_ 13:42.
+
+Krampis K. _(2007)._ “_Semantic Web Bioinformatics: distilling knowledge
+by mining heterogeneous data_”. _VBI e-connections_ 2(3):2.
+
+
+===== *Microbiomics, Cancer and other Biological Research*
+
+Naidoo MK, Levine F, Gillot T, Orunmuyi AT, Olapade-Olaopa EO,
+Ali TA_, Krampis K and Ogunwobi OO. _(2020)._
+“_MicroRNA-1205 regulation of FRYL in metastatic castration-resistant
+prostate cancer_”. _Clinical and Experimental Metastasis_ 36(2).
+
+King CH, Desai H, Sylvetsky A, LoTempio J, Ayanyan S, Gasparyan L,
+Carrie J, Keith Crandall K, Fochtman B, Naila Gulzar N, Paul Howell P,
+Issa N, Krampis K, Mishra L, Morizono H, Ren Y, Simonyan V, Smith K,
+VedBrat S and Mazumder R. _(2019)._ “_Baseline human gut microbiota
+profile in healthy people and standard reporting template_”. _PLoS ONE_
+14 (9):e0206484.
+
+Di L, Wan Z, Akther S, Ying C, Larracuente A, Li L, Di C,
+Nunez R, Cucura DM#_, Goddard NL, Krampis K and Qiu W.
+_(2018)_._“Genotyping and quantifying Lyme pathogen strains by deep
+sequencing of the outer surface protein C (ospC) locus”. Journal of
+Clinical Microbiology_ 56(11):940.
+
+Alterovitz G, Dean D, Carole Goble C, Crusoe MR...Krampis K … Mazumder
+R. _(2018)._ “_Enabling Precision Medicine via standard communication of
+NGS provenance, analysis, and results_”. _PLoS Biology_
+16(12):e3000099
+
+Krampis K. (_2017_). “_TED toolkit: A comprehensive approach for
+convenient transcriptomic profiling as a clinically oriented
+application_”. _PeerJ_ E3385v1.
+Bubnell J, Jamet S, Tomoiaga D, D’Hulst C, Krampis K and Feinstein P.
+_(2015). “In Vitro Mutational and Bioinformatics Analysis of the M71
+Odorant Receptor and Its Superfamily_”. _PLoS ONE_ 10(10):0141712.
+
+Shamsaddini A, Pan Y, Johnson WE, Krampis K, Shcheglovitova M, Simonyan
+V and Mazumder R _(2014)._ “_Census-based rapid and accurate metagenome
+taxonomic profiling_”. _BMC Genomics_ 15(1):918.
+
+Cole C, Krampis K, Almeida J, Faison W, Motwani M, Simonyan V, Golikov
+A, Pan Y and Mazumder M _(2014)._ _“Non-synonymous single-nucleotide
+variations in TCGA control samples and their effect on the human
+proteome: workflow for NGS data biocuration and proteome-wide
+analysis_”. _BMC Bioinformatics_ 15:28.
+
+Tyler BM, Tripathy S, Zhang X, Dehal P, Jiang RH, Aerts A … Krampis K et
+al. _(2006)._ “_Phytophthora genome sequences uncover evolutionary
+origins and mechanisms of pathogenesis_”. _Science_ 313(5791):1261.
+
+Krampis K, Tyler BM and Boore JL _(2006)._ “_Extensive variation in
+nuclear mitochondrial DNA content between the genomes of P. sojae and P.
+ramorum_”. _Molecular Plant Microbe Interaction_ 19(12):1329.
+
+
+==== *[.underline]#Book Chapters#*
+
+Dang T, Achrak E, Krampis K and Holford M. _(2021).“VenomFlow: An
+automated venomic pipeline for identification of putative therapeutic
+toxins”, in Marine Genomics Lab Protocols_, published by Elsevier Press,
+Cambridge, MA, USA
+
+Krampis K, Efstathiadis E, and Brown SM. _(2015)_ “_Cloud-Based
+Next-Generation Sequencing Informatics”, in Next-Generation DNA
+Sequencing Informatics, Second Edition_, published by Cold Spring Harbor
+Laboratory Press, New York, USA.
+
+Rusch DB, Miller J, Krampis K, Tovchgrechko A, Sutton G, Yooseph S and
+Nelson KE. _(2014)_. “_Bioinformatics for Genomes and Metagenomes in
+Ecology Studies_”, in _Infectious Microecology,_ published by Springer
+GmbH & Co., Berlin, Heidelberg, Germany.
+
+Goll JB, Szpakowski S, Krampis K and Nelson KE. _(2014)_. “_Metagenomics
+and Microbiomes_”, in _Bioinformatics and Data Analysis in
+Microbiology_, published by Caister Academic Press, Norfolk, U.K.
+
+Nelson KE, Madupu R, Szpakowski S, Goll JB, Krampis K and Methe BA.
+_(2014)_. “_Next-generation sequencing, metagenomes, and the human
+microbiome_”, in _Next-Generation Sequencing: Current Technologies and
+Applications_, published by Caister Academic Press, Norfolk, U.K.
+
+Quirino BF, Chaves Barreto C, Pappas GJ, Zengler K, Krampis K and
+Krueger RH. _(2013)_. “_Genomes and Post-Genome Technology”_, in
+_Prokaryotic Biology and Symbiotic Associations_, published by Springer
+GmbH & Co., Berlin, Heidelberg, Germany.
+
+Madupu R, Rogers Yu-H, Rusch D, Miller J, Krampis K and Nelson KE.
+_(2012)._ “_Microbiomes_”, in _Encyclopedia of Molecular Cell Biology
+and Molecular Medicine,_ published by Wiley-VCH Verlag GmbH Germany.
+
+Miller J, Rusch D, Krampis K, Tovichgrechko A, Sutton G, Yooseph S and
+Nelson KE. (_2012)._ “_Bioinformatics for Genomes and Metagenomes in
+Microbial Ecology Studies_”, in _Infectious Micro-ecology: Theory and
+Applications_, published by Wiley-VCH Verlag GmbH & Co., Germany.
+
+Tyler BM, Jiang RHY, Zhou L, Tripathy S, Dou D, Torto-Alalibo T, Li H,
+Mao Y, Liu B, Vega-Sanchez M, Mideros SX, Hanlon R, Smith, BM, Krampis K
+et al. _(2008)_. “_Functional genomics and bioinformatics of the
+Phytophthora sojae soybean interaction_”, in _Genomics of Disease_,
+published by Springer Science, New York, USA.
+
+
+==== *[.underline]#Journal Review Boards:#*
+
+_Oxford Bioinformatics; BMC Bionformatics; BMC Research Notes; In Silico
+Biology; Future Generation Computer Systems; BioMed Research; British
+Journal of Mathematics and Computer Science; Journal of Bioinformatics &
+Computational Biology; Nature Scientific Reports; Nature Methods;
+Gigascience; PLoS ONE; F1000 Research_
+
+==== *[.underline]#Students and Mentoring#* 
+
+===== *[.underline]#Graduate students, thesis primary advisor:#*
+
+[.underline]#Geoffery Yoo#, Data Science Master’s Student, CUNY Graduate
+Center, Thesis topic “_Deep Learning model training for large scale
+applications in epigenetics and gene expression_” (2020)
+
+[.underline]#Dennis Huang#, Biology PhD Student, CUNY Graduate Center,
+Thesis topic “_Single-cell sequencing and epigenetic networks in neuron
+damage in neurological disorders_” (2019)
+
+[.underline]#Enis Berg Coban#, Computer Science PhD Student, Hunter
+College and CUNY Graduate Center, Thesis topic “_Manifold Learning
+algorithms for Noise Control and Trajectory Inference in Single Cell
+Sequencing Data_” (2019)
+
+[.underline]#Priti Kumari#, M.Sc. Bionformatics, Biochemistry
+Department, George Washington University, Thesis project _“Parallel and
+Cloud Computing Based Genome Assembly Using Bidirected String Graphs”_
+(2013).
+
+[.underline]#Vivek Sarangi#, M.Sc. Bionformatics, Biochemistry
+Department, George Washington University, Thesis project _“Development
+and Evaluation of Cloud Computing Infrastructures for Next-Gen
+Sequencing Data analysis”_ (2012).
+
+===== *[.underline]#Graduate student co-mentoring:#*
+
+[.underline]#Melissa Ingala#, Comparative Biology Ph.D. Candidate,
+Richard Gilder Graduate School, American Museum of Natural History,
+“_Comparative Metagenomics of Wild Mammals for Indentifying Signals of
+Host Ecology and Evolution”_ (2017).
+
+[.underline]#Kelly Speer#, Comparative Biology Ph.D. Candidate, Richard
+Gilder Graduate School, American Museum of Natural History, Thesis topic
+“_Microbiomes and Feeding Ecology in Neotropical Bats_” (2017).
+
+[.underline]#Allen Pan#, Biology Ph.D. Candidate, Hunter College and
+CUNY Graduate Center, Thesis topic "_Neuroscience of addiction_" (2016).
+
+[.underline]#Hasan Zumrut#, Biology Ph.D. Candidate, Lehman College and
+CUNY Graduate Center, Thesis topic "_Development of novel NGS data
+analysis methods of SELEX Libraries_" (2016).
+
+[.underline]#Jason Mighty#, Biology Ph.D. Candidate, Lehman College and
+CUNY Graduate Center, Thesis topic "_Ocular degeneration genetics_ _and
+small RNAs_" (2016).
+
+[.underline]#Juliette Gorson#, Chemistry Ph.D. Candidate, Hunter College
+and CUNY Graduate Center, Thesis topic "_Discovery of cancer inhibiting
+compounds in venomous marine snail transcriptome_" (2015).
+
+[.underline]#Samuel Hosmer#, Mathematics Ph.D. Candidate, CUNY Graduate
+Center, Spring 2015 internship on “_Implementation of cloud computing
+based data analysis pipeline for CHIP-seq genomic sequencing data”_
+(2015)_._
+
+===== *[.underline]#Undergraduate student mentoring:#*
+
+[.underline]#Kerwin George#, Bioinformatics and Biological Sciences
+Major, Hunter College (graduation spring 2021), performed research in
+Krampis’ lab on “Ethnic and Race-Specific Variations in Carcinoma
+Microbiomes”.
+
+[.underline]#Jesus Lopez, Bayan Berri, Qianfan Yang, Brian Gerevits.#
+Biological Sciences Major, “Deep Learning model development and training
+for microbiome analysis in minority health” Summer 2020 Cancer Research
+Institute (SCRI) internship as part of the Hunter College Temple
+University / FCCC partnership.
+
+[.underline]#Tahir Ramzan, Rajveer Singh, Olivia Senecal, Qianfan Yang,
+Wisam Ali.# Biological Sciences Major, “Human microbiome and minority
+health: unraveling variations associated with health disparities” (Fall
+2018 - Spring 2020), poster at Hunter College Undergraduate Student
+Conference and NIH U54 meeting, Temple University 2019 and 2020.
+
+[.underline]#Mohammed Rahman, Ariel Avshalom#, Mathematics and Computer
+Sciences Majors, “MicrobiomeExplorer: An interactive and web-based R
+Shiny analysis platform for microbiome research” (Fall 2018 - Spring
+2020), poster at Hunter College Undergraduate Student Conference and NIH
+U54 meeting, Temple University 2019 and 2020; poster also at
+Bioconductor Conference at the Rockefeller University.
+
+[.underline]#Catherine Ng, Ariel Avshalom, Anna Fernadez and Simran
+Kaur#, Mathematics and Biological Sciences Majors, Hunter College
+(graduation Spring 2019), performed research in Krampis’ lab on
+“_Assessing transcriptome and transcription factor sites in RNA-seq and
+ChIP-seq NGS through downstream computational analysis in the Galaxy web
+platform_” (research was presented at the Hunter College Undergraduate
+Student Research Conference in Spring 2018).
+
+[.underline]#Philip Ort#, Biological Sciences Major, Hunter College
+(graduation Fall 2018), performs research in Krampis’ lab on
+“_Computational analysis of cancer cell line differential gene
+expression datasets using the Galaxy web platform_”.
+
+[.underline]#Joseph Sayad#, Computer Science Major, Hunter College
+(graduation Spring 2018), performed research in Krampis’ lab on
+“_Development of Distributed Bioinformatics Algorithms using Intel Next
+Unit of Computing Systems_”.
+
+[.underline]#Trami Dang#, Physics Major, Hunter College (graduation Fall
+2016), performed research in Krampis’ lab on “_Development of Cloud
+Computing Pipeline for Methylation Bi-Sulfite Sequencing Data
+Analysis_”.
+
+[.underline]#Bobby Linguani#, Biological Sciences Major, Hunter College
+(graduation Fall 2016), performed research in Krampis’ lab on
+“_Large-Scale Human Microbiome Bioinformatics Pipelines in Galaxy and
+Docker Containers_”, manuscript submitted with NYU collaborating group.
+
+[.underline]#Kevin Raz#, Biological Sciences Major, Hunter College
+(graduation Fall 2016), performed research in Krampis’ lab on
+“_Implementation of Portable Metagenomic Data Analysis Pipelines with
+Pynast and Visualizations_”.
+
+[.underline]#Roy Lee#, Biological Sciences Major, Hunter College
+(graduation Spring 2016), performs research in Krampis’ lab on
+“_Cross-Platform Blast Toolkits using Docker Software Containers_”.
+
+[.underline]#Thahmina Ali#, Biological Sciences Major, Hunter College
+(graduation May 2015), performed research in Krampis’ lab on
+“_Implementation of a comprehensive, standardized, scalable,
+user-friendly, RNA-seq analysis pipeline_” (accepted as Ph.D. student at
+Columbia University).
+
+[.underline]#Baekdoo Kim,# Computer Science Major, Hunter College
+(graduation December 2014), performed research in Krampis’ lab on “_The
+Visual Omics Explorer (VOE): Providing a Highly Interactive,
+Cross-Platform Portal for Omics Data Visualization_”, manuscript was
+published in 2016.
+
+==== *[.underline]#Invited talks, workshops, and presentations:#*
+
+“_Artificial Intelligence and Deep Learning for Bioinformatics: current
+progress and future prospects_”. Data Science Research Survey Seminar,
+PhD Program in Computer Science, CUNY Graduate Center, May 2021
+(Online-remote meeting).
+
+“_Bioinformatics infrastructure and services development at the
+Bioinformatics and Biostatistics Core (BBC) of the Temple University –
+Fox Chase Cancer Center - Hunter College Partnership, Award year 3
+progress_”. NIH U54 Cancer Health Disparities Progress Review Meeting,
+May 2021 (Online-remote meeting).
+
+“_Next Generation Computational Infrastructures for Accessible,
+Standardized, Scalable Bioinformatics_”. Lawrence Berkeley National
+Laboratory, September 2020 (Online-remote meeting).
+
+“_Next Generation Computational Infrastructures for Accessible,
+Standardized, Scalable Bioinformatics_”, Food and Drug Administration,
+July 2019, Washington, DC, USA.
+
+“_Programmability, complexity and computability of large-scale cellular
+epigenetic networks_”, Unconventional and Natural Computation
+Conference, June 2019, Tokyo, Japan.
+
+“_Bioinformatics infrastructure and services development at the
+Bioinformatics and Biostatistics Core (BBC) of the Temple University –
+Fox Chase Cancer Center - Hunter College Partnership, Award year 1
+progress_”. NIH U54 Cancer Health Disparities Progress Review Meeting,
+May 2019, Philadelphia, PA, USA.
+
+“_Exporting Biological Compute Objects (BCO) for NGS data analysis
+pipelines specification on the Galaxy server_”, Biocompute Objects
+Workshop, May 2019, Washington, DC, USA.
+
+“_Next Generation Computational Infrastructures for Accessible,
+Standardized, Scalable Bioinformatics_”, Genome Institute of Singapore,
+October 2018, Singapore.
+
+“_Integrating DNA computing with NGS sequencing for reading molecular
+output with high I/O_”, Unconventional and Natural Computation
+Conference, June 2018, Fontainebleau, France.
+
+“_Exporting Biological Compute Objects (BCO) from Docker container
+running Galaxy NGS data analysis pipelines_”, Biocompute Objects
+Workshop, March 2018, Washington, DC, USA.
+
+“_MiCloud and BioDocklets: A Plug and Play, on-Premises Bioinformatics
+Cloud, Providing Seamless, Single-Step Execution of NGS Pipelines_”,
+Plant and Animal Genome (PAG) Conference, January 2018, San Diego, CA,
+USA.
+
+“_Building the Next Generation of Bioinformatics Infrastructures for NGS
+Data Analysis_", Department of Human Genetics, University of Pittsburgh,
+October 2017, Pittsburgh, PA, USA.
+
+“_Interoperability of NextFlow workflows on the Google Cloud and the
+GA4GH platform/DREAM challenge_”, OpenBio CodeFest, Intelligent Systems
+for Molecular Biology Conference (ISMB), July 2017, Prague, Czech
+Rebuplic.
+
+“_STEM Movement Science and Art Education Initiative_”, two art
+works presented, in collaboration with the DNA Learning Center - Cold
+Spring Harbor Laboratory, at the International Society for Computational
+Biology (ISCB) Art in Science Meeting, July 2017, Prague, Czech
+Republic.
+
+“_Microbiome Analysis on the Cloud Workshop_”, was selected as
+participant at this workshop from a population of applicants dues to the
+specific work performed in the bioinformatics field. The workshop was
+organized by the Human Microbiome Project (HMP) consortium and the
+Institute of Genome Sciences, University of Maryland Medical School,
+June 2017, Baltimore, MD, USA.
+
+“_Bio-Docklets: virtualization containers for single-step execution of
+NGS pipelines_”. GWU-FDA Symposium on Data Standards and
+Interoperability, National Institutes of Health, March 2017, Rockville,
+MD, USA.
+
+“_Building the Next Generation of Bioinformatics Infrastructures for NGS
+Data Analysis_", Univ. of Michigan, Dept. of Computational Medicine and
+Bioinformatics seminar series, January 2017, Ann Arbor, MI, USA.
+
+“_A Platform for Developing Bioinformatics Analytics for Cloud, Cluster
+and Desktop Computers_”, presented at:
+Dept. of Biological Sciences, Lehman College, City University of New
+York, November 2016, NY, USA.
+
+“_Leveraging cloud computing technologies for large-scale genome
+sequence data analysis, and the Cloud BioLinux platform_”, presented at:
+
+* Cloud Computing in Bioinformatics 2012, Center For Genomic Regulation,
+Barcelona, Spain.
+
+* Translational Bioinformatics On The Cloud Conference 2012, New
+Brunswick, NJ, USA.
+
+* NIAID Bioinformatics Festival 2012, National Institutes of Health,
+Bethesda, MD, USA.
+
+* NIAID Genomics Standards Consortium Conference 2011, European Bioinformatics
+Institute, Hinxton, UK.
+
+* NIAID Cloud Computing (Chair), Next-Gen Sequencing Data Management 2010,
+Providence, RI, USA.
+
+“_South Africa National Research Network Workshop - Cloud BioLinux for
+High Performance Data Analysis_”, Center of High Performance Computing,
+December 2011, Johannesburg, South Africa.
+
+"_Solutions for Genome Sequence Data Analysis_”, National Institutes of
+Health, University of Limpopo, June 2011, South Africa.
+
+"_Security and Resilience, Scale-Free Metabolic Networks_”, Institute of
+Human and Machine Cognition, April 2011, Ocala, FL, USA.
+
+
+
+==== *[.underline]#Academic and Professional Honors#*
+
+2019 Clinical and Translational Science Center Honors Award
+
+2018 Proposal Development / Faculty Research Award, City University of
+New York
+
+2017 President’s Travel Award, Hunter College, City University of New
+York
+
+2015 Entrepreneurship Lab NYC Selected Top 20 Business Plan (300+
+entries)
+
+2011 Bioinformatics Open Source Conference – Best Audience Voted
+Presentation Award
+
+2008 Virginia Tech Graduate Association Executive Board Elected Member
+
+2008 Virginia Tech Outstanding Interdisciplinary Doctoral Student Award
+
+2008 Horace E. Alphin Doctoral Tuition Scholarship
+
+2007 Virginia Tech Graduate Student Assembly Research Grant
+
+2006 James and Ina Mae Doctoral Tuition Scholarship
+
+==== *[.underline]#Membership in Professional Societies#*
+
+NCI Containers and Workflows Interest Group - NIH Data Science (since
+2017)
+
+High-performance Integrated Virtual Environment (HIVE) Consortium,
+FDA-GWU (since 2016)
+
+IEEE Biological Compute Objects (BCO) Working Group (since 2015)
+
+Open Bioinformatics Foundation (since 2006)
+
+International Society for Computational Biology (since 2008)
+
+==== *[.underline]#Administration and Faculty Service#*
+
+*_– Director of Bioinformatics and Biostatistics Core, U54 Cancer
+Partnership Hunter College / Temple University (CCHDR, 2018-Present):_*
+Designed and implemented bioinformatics software that is foundational to
+the partnership research. In addition, I collaborated extensively with
+partnership investigators that are non-technical users, and helping them
+to easily access and manage large-scale genomic datasets and run
+bioinformatics data pipelines, enabling investigators to easily
+collaborate, and exchange data and analysis results.
+
+*_– Director of Bioinformatics Core Facility, Center for Translational
+and Basic Research at Hunter College (CTBR, 2014-2018):_* I lead the
+design and initial development of the facility and directed the design,
+budget, evaluation and acquisition of computational and genomic
+sequencing infrastructure, in addition to hands-on implementation by
+defining project budget, execution plan, and coordinating equipment
+acquisition and installation.
+
+*_– Faculty Committee Chair, Standard II, Ethics and Integrity, Middle
+States Commission on Higher Education_ (2017-2018):* I was appointed for
+a two-year commitment to this committee by the Provost at Hunter
+College. I conducted extensive research and wrote a report in
+collaboration with the Dean for Diversity and Compliance.
+The work involved looking into data and processes ranging from
+recruitment and marketing materials, public disclosures of information,
+to institutional by-laws and all processes at Hunter College relevant to
+ethics and integrity.
+
+**_– Faculty Advisory Committee of Data Science at CUNY, Office of the
+Vice Chancellor for Research_ (2016-2017)_: _**I contributed to the
+creation of a catalogue of all the academic programs, from
+community-college certificate programs to Graduate Center doctoral
+programs that have a focus in or relevance to data science, and wrote as
+Principal Investigator a proposal submitted to the National Science
+Foundation for the creation of a PhD program in Data Science.
+
+==== *[.underline]#Education and Outreach#*
+
+– Mentored on bioinformatics research the undergraduate student Joseph
+Sayad who is a first-generation college student from Syrian immigrants,
+and he was able to win a competitive scholarship, and subsequently join
+Washington University’s PhD program in Computer Science, becoming the
+first scientist in his family.
+
+– Mentor, *Science Research Mentoring Program (SRMP)*, American Museum
+of Natural History; supervised two minority high-school students
+performing bioinformatics research, students were accepted to Stanford
+University and University of Pittsburgh.
+
+– Mentor, *Urban Barcording Microbiome Program (UBMP)*, Cold Spring
+Harbor Laboratory; supervised two minority high-school students
+performing bioinformatics research, students were accepted to Carnegie
+Mellon University and Hunter College.
