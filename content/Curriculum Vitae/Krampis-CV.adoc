@@ -8,8 +8,22 @@ https://kkrampis.github.io/blog/[AI/ML Research Blog] and
 https://medium.com/@agbiotec[Medium] (in progress), 
 https://www.gc.cuny.edu/people/konstantinos-krampis[CUNY Faculty webpage].
 
+==== *[.underline]#AI Interpretability - Safety Training#*
 
-==== *[.underline]#AI/ML Highlights#*
+https://www.aisafety.camp/[AI Safety Camp] mentor / project lead for Fall 2025, _"AutoCircuit: Automated Discovery of Interpretable Reasoning Patterns in LLMs"_
+
+https://www.tutke.org/en/fundamentals-of-ai-safety[Fundamendals of AI Safety] program participant, Fall 2025
+
+https://www.successif.org/[Successif] AI career development program participant, Fall 2025
+
+https://bluedot.org/courses/agi-strategy[BlueDot Impact AGI Strategy] program participant, Fall 2025
+
+https://bluedot.org/courses/technical-ai-safety[BlueDot Impact Technical AI Safety] Winter 2026 cohort (pending application)
+
+https://futureimpact.group/[Future Impact Group] Technical & Philosophical Fundamentals of AI Safety, Winter 2026 cohort (pending application)
+
+
+==== *[.underline]#AI/ML Research and Teaching Highlights#*
 
 Machine Learning for Bioinformatics course taught at CUNY since 2020, covering ANNs, Transformers and ML Math.
 
