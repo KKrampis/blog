@@ -1,5 +1,5 @@
 ---
-title: "Interpretability"
+title: "Interpretability for LLMs"
 ---
 
 This section explores the critical field of AI interpretability, focusing on understanding how modern deep learning models, particularly Large Language Models (LLMs), make decisions and process information. The content examines three essential aspects of mechanistic interpretability: the nature of emergent features in neural networks, practical tools for visualizing model internals, and the architectural evolution from recurrent networks to attention-based models. These topics collectively provide insights into the black box of AI systems, revealing how complex behaviors emerge from mathematical transformations and learned representations distributed across network layers.
