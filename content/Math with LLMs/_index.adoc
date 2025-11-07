@@ -1,5 +1,5 @@
 ---
-title: "Numerical understanding by LLMs"
+title: "Mathematics and AI"
 ---
 
 This section examines how Large Language Models process and understand numerical information, revealing fundamental insights into their internal representation of numbers. Based on a 2024 study by Levy and Mor using the Llama 3 model with 8 billion parameters, research demonstrates that LLMs encode numbers using circular representations in base 10 rather than treating digits as simple characters or comprehending actual numeric values. The investigation employed linear probing techniques to decode digit values from hidden states, finding that numerical errors in arithmetic tasks like addition problems tend to reflect digit similarity errors (such as confusing "833" with "633" or "823") rather than errors closer in numeric value, suggesting that LLMs process numbers in digit representation space rather than numerical value space. Through mathematical formulations involving circular embeddings that map digits to points on the unit circle using cosine and sine functions, the study reveals that models maintain digit-wise encoding in their internal computations, with errors frequently aligning with multiples of 10 or 100 and digit discrepancies rather than strict numerical proximity, highlighting a unique aspect of how contemporary language models handle mathematical reasoning tasks.
