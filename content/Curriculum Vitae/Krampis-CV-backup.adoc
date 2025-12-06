@@ -2,10 +2,9 @@
 
 ==== *Associate Professor, Hunter College, City University of New York*
 
-https://www.linkedin.com/in/kkrampis[LinkedIn], 
-https://github.com/KKrampis[Github], 
-https://kkrampis.github.io/blog/[AI/ML Research Blog] and  
-https://medium.com/@agbiotec[Medium] (in progress), 
+https://www.linkedin.com/in/kkrampis[LinkedIn],
+https://github.com/KKrampis[Github],
+https://kkrampis.github.io/blog/[AI/ML Research Blog] and
 https://www.gc.cuny.edu/people/konstantinos-krampis[CUNY Faculty webpage].
 
 ==== *[.underline]#AI Interpretability - Safety Training#*
@@ -18,28 +17,26 @@ https://www.successif.org/[Successif] AI Risk career development program partici
 
 https://bluedot.org/courses/agi-strategy[BlueDot Impact AGI Strategy] program participant, Fall 2025
 
-https://bluedot.org/courses/technical-ai-safety[BlueDot Impact Technical AI Safety] Winter 2026 cohort (pending application)
-
-https://futureimpact.group/[Future Impact Group] Technical & Philosophical Fundamentals of AI Safety, Winter 2026 cohort (pending application)
+https://bluedot.org/courses/technical-ai-safety[BlueDot Impact Technical AI Safety] Winter 2026 cohort
 
 
 ==== *[.underline]#AI/ML Research and Teaching Highlights#*
 
-Machine Learning for Bioinformatics course taught at CUNY since 2020, covering ANNs, Transformers and ML Math.
+Transcriptomics: AI for Genome Analysis,  new course to start in Spring 2025 with a focus on LLMs trained with genomic data, https://kkrampis.github.io/blog/teaching/genomeai/index.html[syllabus available]
 
-Computational Molecular Biology tought since 2015, with AI / ML for Bioinformatics included in course as of 2020.
+Machine Learning for Bioinformatics course taught since 2020, covering deep neural networks, Transformer architecture and ML math.
 
-https://github.com/KKrampis/GraphML-Bioinformatics-Course/tree/main/BioinformAI[Python Jupyter notebooks] for GraphML course taught at CUNY.
+Computational Molecular Biology tought since 2015, covering AI / ML for bioinformatics and genomic data analysis.
 
-https://github.com/KKrampis/AutomaTikZ/commits/main/[Extended AI Latex graph (TikZ) app] to utilize models from HuggingFace Inference Endpoints.
-
-https://github.com/KKrampis/codex.nvim/commits/main/[Modified Neovim plugin] to run OpenAI Codex as panel within the editor. 
+https://github.com/KKrampis/GraphML-Bioinformatics-Course/tree/main/BioinformAI[Python Jupyter notebooks] for GraphML topics covered in my courses.
 
 https://github.com/KKrampis/Bioinform-Geometric-ML-Paper[Paper as code on Geometric Deep Learning], symmetry and ANN introduction.
 
-https://github.com/KKrampis/biocompute-object-llm[OpenAI Assistants (agent) for bioinformatics extraction from literature] and https://vimeo.com/954746148[Vimeo talk].
+https://github.com/KKrampis/AutomaTikZ/commits/main/[Extended AI Latex graph (TikZ) app] to utilize models from HuggingFace Inference Endpoints.
 
-https://github.com/KKrampis/explainableAI[Book on Explainable AI (early draft)] to be written agentically as interlinked AsciiDoc pages.
+https://github.com/KKrampis/codex.nvim/commits/main/[Modified Neovim plugin] to run OpenAI Codex as panel within the editor.
+
+https://github.com/KKrampis/biocompute-object-llm[LLM agent implementation for bioinformatics extraction from literature] and https://vimeo.com/954746148[Vimeo talk].
 
 https://www.jcvi.org/research/jcvi-cloud-biolinux[Cloud BioLinux founder] first (circa 2012) AWS deployment of Bioinformatics cloud tools.
 
@@ -60,7 +57,7 @@ Bioinformatics
 
 *09/2014 – 09/2018*   Hunter College, CUNY Director of Bioinformatics CTBR
 
-*09/2014 – Present*   Associate Professor, Biological Sciences, Hunter College, CUNY 
+*09/2014 – Present*   Associate Professor, Biological Sciences, Hunter College, CUNY
 
 *09/2014 – Present*   Hunter College, CUNY Associate Professor Biology & Computer
 Science Programs at the CUNY Graduate Center
@@ -122,7 +119,7 @@ In addition to the courses above, I have mentored and trained many
 undergraduate students in my laboratory who performed research and
 presented at the Hunter College Undergraduate STEM Conference, the
 SPEECH Cancer Health Disparities Conference and additional scientific
-meetings. 
+meetings.
 
 (Details further in the student section of the CV).
 
@@ -307,7 +304,7 @@ Journal of Mathematics and Computer Science; Journal of Bioinformatics &
 Computational Biology; Nature Scientific Reports; Nature Methods;
 Gigascience; PLoS ONE; F1000 Research_
 
-==== *[.underline]#Students and Mentoring#* 
+==== *[.underline]#Students and Mentoring#*
 
 ===== *[.underline]#Graduate students, thesis primary advisor:#*
 
