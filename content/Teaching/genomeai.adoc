@@ -1,0 +1,91 @@
+---
+title: "Trascriptomics and AI approaches for genome analysis"
+---
+
+BIO 37105 / 77105 • SPRING 2026
+
+== 🧬 Course Overview
+
+Explore the cutting-edge intersection of transcriptomics and artificial
+intelligence. Learn to predict cellular responses to perturbations,
+analyze single-cell RNA sequencing data, and build virtual cell models
+that simulate biological behavior without traditional wet-lab
+experiments.
+
+*Credits*
+
+3 Credits (Lecture)
+
+*Level*
+
+300 + 700
+
+*Format*
+
+Online - synchronous +
+Tuesdays 2:30-5:00pm
+
+*Class Size*
+
+Limited to 35 students
+
+*Prerequisites:* BIO 203
+
+== 📚 Course Syllabus
+
+[.week-number]#Weeks 1-2:# [.topic]#Transcriptomics Fundamentals#
+[.description]#Central dogma review, gene expression and regulation, RNA
+biogenesis, alternative splicing, RNA-seq technologies (bulk and
+single-cell), library preparation methods, sequencing platforms, and
+transcriptome data structure#
+
+[.week-number]#Weeks 3-4:# [.topic]#Single-Cell Data Analysis#
+[.description]#Quality control, normalization, dimensionality reduction,
+clustering, and differential expression analysis#
+
+[.week-number]#Weeks 5-6:# [.topic]#Perturbation Approaches in Genomics#
+[.description]#Gene perturbation strategies, Perturb-seq methods,
+linking genotype to phenotype, high-throughput functional screens, and
+interpreting perturbation data#
+
+[.week-number]#Weeks 7-9:# [.topic]#AI for Biology#
+[.description]#Machine learning fundamentals, deep learning
+architectures, transformer models, protein language models (ESM2),
+biological embeddings, attention mechanisms, and introduction to the Arc
+Institute's STATE model#
+
+[.week-number]#Weeks 10-11:# [.topic]#Virtual Cell Modeling#
+[.description]#Predicting perturbation responses, context generalization
+across cell types, causal vs. correlational modeling#
+
+[.week-number]#Week 12:# [.topic]#Large-Scale Datasets & Resources#
+[.description]#Arc Virtual Cell Atlas, CELL×GENE, scBaseCount,
+Tahoe-100M dataset exploration#
+
+[.week-number]#Weeks 13-14:# [.topic]#Model Evaluation & Benchmarking#
+[.description]#Perturbation discrimination, differential expression
+metrics, MAE, and Virtual Cell Challenge framework#
+
+[.week-number]#Week 15:# [.topic]#Final Exam# [.description]##
+
+== 🎯 Learning Outcomes
+
+Students will be able to:
+
+[.badge]#Analyze scRNA-seq Data# [.badge]#Build Predictive Models#
+[.badge]#Design Perturbation Experiments# [.badge]#Interpret AI
+Predictions# [.badge]#Use Large Scale Datasets# [.badge]#Apply Virtual
+Cell Models#
+
+== 🔬 Hands-On Experience
+
+Learn to work with real transcriptomic datasets including single-cell
+RNA-seq profiles. Master quality control pipelines, normalization
+techniques, and batch effect correction. Perform dimensionality
+reduction (PCA, UMAP, t-SNE), cell type identification, and trajectory
+analysis. Apply differential expression analysis across conditions and
+cell types. Explore virtual cell models using the Arc Institute's STATE
+architecture and the Virtual Cell Challenge framework.
+
+*Instructor: Assoc. Prof. Konstantinos Krampis* +
+Contact: kk104@hunter.cuny.edu
