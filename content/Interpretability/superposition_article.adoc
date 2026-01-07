@@ -1,5 +1,5 @@
 ---
-Title: Superposition in Large Language Models Understanding Feature Representation Beyond Dimensionality
+Title: Superposition in Large Language Models - Understanding Feature Representation
 ---
 
 == Introduction
@@ -25,37 +25,37 @@ The implications of superposition extend far beyond theoretical curiosity. Under
 == Understanding the Concept of Superposition
 
 === Theoretical Foundations
+To grasp superposition in neural networks, we must first understand the mathematical framework that governs neural representations. Consider a neural network layer with $d$ dimensions that needs to represent $n$ features, where $n >> d$. In a traditional linear model, this would be impossible without significant information loss. However, superposition theory suggests that if the features are sufficiently sparse, the network can learn to represent all $n$ features in the $d$-dimensional space.
 
-To grasp superposition in neural networks, we must first understand the mathematical framework that governs neural representations. Consider a neural network layer with asciimath:[d] dimensions that needs to represent asciimath:[n] features, where asciimath:[n >> d]. In a traditional linear model, this would be impossible without significant information loss. However, superposition theory suggests that if the features are sufficiently sparse, the network can learn to represent all asciimath:[n] features in the asciimath:[d]-dimensional space.
 
 The mathematical foundation of superposition can be understood through the lens of compressed sensing and sparse coding. Let's define our feature space more formally:
 
 Given:
-- asciimath:[mathbf{x} in RR^d]: the activation vector in a layer with asciimath:[d] dimensions
-- asciimath:[mathbf{f} in RR^n]: the true feature vector with asciimath:[n] features  
-- asciimath:[mathbf{W} in RR^{d times n}]: the feature dictionary matrix
-- asciimath:[s]: the sparsity level (number of active features)
+- $\mathbf{x} \in \mathbb{R}^d$: the activation vector in a layer with $d$ dimensions
+- $\mathbf{f} \in \mathbb{R}^n$: the true feature vector with $n$ features
+- $\mathbf{W} \in \mathbb{R}^{d \times n}$: the feature dictionary matrix
+- $s$: the sparsity level (number of active features)
 
 The superposition hypothesis states that:
-asciimath:[mathbf{x} = mathbf{W} mathbf{f}]
+$\mathbf{x} = \mathbf{W} \mathbf{f}$
 
-where asciimath:[mathbf{f}] is sparse with asciimath:[||mathbf{f}||_0 = s << n], meaning only asciimath:[s] out of asciimath:[n] features are active simultaneously.
+where $\mathbf{f}$ is sparse with $\|\mathbf{f}\|_0 = s << n$, meaning only $s$ out of $n$ features are active simultaneously.
 
-The key insight is that when asciimath:[s] is sufficiently small relative to both asciimath:[d] and asciimath:[n], the network can learn a dictionary asciimath:[mathbf{W}] such that different sparse combinations of features can be distinguished and recovered, even when asciimath:[n >> d].
+The key insight is that when $s$ is sufficiently small relative to both $d$ and $n$, the network can learn a dictionary $\mathbf{W}$ such that different sparse combinations of features can be distinguished and recovered, even when $n >> d$.
 
 === The Geometry of Superposition
 
 Understanding superposition requires visualizing how features are arranged in the representational space. In a superposed representation, feature vectors are not orthogonal (as they would be in a traditional, non-superposed system) but instead form what researchers call "privileged" and "non-privileged" directions in the space.
 
-**Privileged Directions**: Some features may align with the coordinate axes of the representation space. These features have dedicated dimensions and are easily interpretable. Mathematically, these correspond to standard basis vectors asciimath:[mathbf{e}_i] where asciimath:[mathbf{e}_i = [0, ..., 0, 1, 0, ..., 0]^T] with the 1 in the asciimath:[i]-th position.
+**Privileged Directions**: Some features may align with the coordinate axes of the representation space. These features have dedicated dimensions and are easily interpretable. Mathematically, these correspond to standard basis vectors $\mathbf{e}_i$ where $\mathbf{e}_i = [0, ..., 0, 1, 0, ..., 0]^T$ with the 1 in the $i$-th position.
 
-**Non-Privileged Directions**: Most features in superposition are represented as linear combinations of multiple dimensions. These features correspond to vectors that are not aligned with any single coordinate axis. For instance, a feature vector might be asciimath:[mathbf{v} = [0.5, 0.3, -0.2, 0.7, 0.1]^T], utilizing multiple dimensions simultaneously.
+**Non-Privileged Directions**: Most features in superposition are represented as linear combinations of multiple dimensions. These features correspond to vectors that are not aligned with any single coordinate axis. For instance, a feature vector might be $\mathbf{v} = [0.5, 0.3, -0.2, 0.7, 0.1]^T$, utilizing multiple dimensions simultaneously.
 
 The angle between feature vectors becomes crucial in superposition. The ability to distinguish between features depends on their mutual coherence, defined as:
 
-asciimath:[mu = max_{i != j} |langle mathbf{w}_i, mathbf{w}_j rangle|]
+$\mu = \max_{i \neq j} |\langle \mathbf{w}_i, \mathbf{w}_j \rangle|$
 
-where asciimath:[mathbf{w}_i] and asciimath:[mathbf{w}_j] are normalized feature vectors (columns of asciimath:[mathbf{W}]). Lower coherence values indicate that features are more distinguishable, enabling better superposition.
+where $\mathbf{w}_i$ and $\mathbf{w}_j$ are normalized feature vectors (columns of $\mathbf{W}$). Lower coherence values indicate that features are more distinguishable, enabling better superposition.
 
 === Toy Models and Empirical Evidence
 
@@ -63,26 +63,26 @@ Researchers have developed "toy models" to study superposition in controlled env
 
 A typical toy model setup involves:
 
-1. **Input Generation**: Create synthetic data where features follow a specific sparsity pattern. For example, generate feature vectors asciimath:[mathbf{f}] where each element is active with probability asciimath:[p] and drawn from a distribution asciimath:[mathcal{N}(0, 1)] when active.
+1. **Input Generation**: Create synthetic data where features follow a specific sparsity pattern. For example, generate feature vectors $\mathbf{f}$ where each element is active with probability $p$ and drawn from a distribution $\mathcal{N}(0, 1)$ when active.
 
 2. **Network Architecture**: Use a simple autoencoder architecture:
-   asciimath:[mathbf{h} = mathbf{W}^{(1)} mathbf{f}]
-   asciimath:[hat{mathbf{f}} = mathbf{W}^{(2)} mathbf{h}]
-   
-   where asciimath:[mathbf{h} in RR^d] is the hidden representation with asciimath:[d < n].
+   $\mathbf{h} = \mathbf{W}^{(1)} \mathbf{f}$
+   $\hat{\mathbf{f}} = \mathbf{W}^{(2)} \mathbf{h}$
+
+   where $\mathbf{h} \in \mathbb{R}^d$ is the hidden representation with $d < n$.
 
 3. **Loss Function**: Train the network to reconstruct the input:
-   asciimath:[mathcal{L} = ||mathbf{f} - hat{mathbf{f}}||^2_2]
+   $\mathcal{L} = \|\mathbf{f} - \hat{\mathbf{f}}\|^2_2$
 
 4. **Analysis**: Examine the learned weight matrices to understand how features are represented in the compressed space.
 
 Through these toy models, researchers have discovered several key phenomena:
 
-**Phase Transitions**: As the sparsity level changes, the model exhibits distinct phases. When features are very sparse (low asciimath:[s]), the model can achieve nearly perfect superposition. When features become too dense (high asciimath:[s]), the model fails to represent them adequately, leading to interference.
+**Phase Transitions**: As the sparsity level changes, the model exhibits distinct phases. When features are very sparse (low $s$), the model can achieve nearly perfect superposition. When features become too dense (high $s$), the model fails to represent them adequately, leading to interference.
 
 **Feature Interference**: When multiple features share similar representations, they can interfere with each other. This interference is not random but follows predictable patterns based on the geometric arrangement of feature vectors.
 
-**Capacity Bounds**: There are theoretical limits to how many features can be represented in superposition. These bounds depend on the dimensionality asciimath:[d], sparsity level asciimath:[s], and desired reconstruction quality.
+**Capacity Bounds**: There are theoretical limits to how many features can be represented in superposition. These bounds depend on the dimensionality $d$, sparsity level $s$, and desired reconstruction quality.
 
 === Superposition in Real Language Models
 
@@ -95,9 +95,9 @@ Moving from toy models to actual language models, superposition manifests in mor
 **Feed-Forward Networks**: The MLP layers in transformers are particularly prone to superposition. These layers often need to represent complex feature combinations that far exceed their dimensionality.
 
 Consider the mathematical representation of a transformer's MLP layer:
-asciimath:[mathbf{h}_{text{ff}} = text{GELU}(mathbf{x} mathbf{W}_1) mathbf{W}_2]
+$\mathbf{h}_{\text{ff}} = \text{GELU}(\mathbf{x} \mathbf{W}_1) \mathbf{W}_2$
 
-where asciimath:[mathbf{W}_1 in RR^{d times d_{text{ff}}}] and asciimath:[mathbf{W}_2 in RR^{d_{text{ff}} times d}]. If the intermediate representation asciimath:[mathbf{h}_{text{ff}}] needs to capture more than asciimath:[d_{text{ff}}] distinct feature types, superposition becomes necessary.
+where $\mathbf{W}_1 \in \mathbb{R}^{d \times d_{\text{ff}}}$ and $\mathbf{W}_2 \in \mathbb{R}^{d_{\text{ff}} \times d}$. If the intermediate representation $\mathbf{h}_{\text{ff}}$ needs to capture more than $d_{\text{ff}}$ distinct feature types, superposition becomes necessary.
 
 == Distinguishing Superposition from Polysemanticity
 
@@ -107,15 +107,15 @@ While superposition and polysemanticity are closely related concepts, they repre
 
 In neural networks, a polysemantic neuron might activate for inputs as diverse as:
 - The concept of "dogs"
-- The color "red"  
+- The color "red"
 - Mathematical operations
 - Specific grammatical structures
 
-Mathematically, if we denote a neuron's activation as asciimath:[a_i], and we have a set of diverse input concepts asciimath:[{C_1, C_2, ..., C_k}], then neuron asciimath:[i] is polysemantic if:
+Mathematically, if we denote a neuron's activation as $a_i$, and we have a set of diverse input concepts ${C_1, C_2, ..., C_k}$, then neuron $i$ is polysemantic if:
 
-asciimath:[exists epsilon > 0 text{ such that } a_i(C_j) > epsilon text{ for multiple distinct } j]
+$\exists \epsilon > 0 \text{ such that } a_i(C_j) > \epsilon \text{ for multiple distinct } j$
 
-where asciimath:[a_i(C_j)] represents the activation of neuron asciimath:[i] when concept asciimath:[C_j] is present in the input.
+where $a_i(C_j)$ represents the activation of neuron $i$ when concept $C_j$ is present in the input.
 
 === Key Differences Between Superposition and Polysemanticity
 
@@ -126,8 +126,8 @@ While both concepts involve multiple features sharing representational space, th
 - *Polysemanticity* is a property of individual computational units (neurons), describing their response patterns.
 
 **Mathematical Characterization**:
-- *Superposition* is characterized by the relationship asciimath:[mathbf{x} = mathbf{W} mathbf{f}] where multiple sparse features asciimath:[mathbf{f}] are encoded in asciimath:[mathbf{x}].
-- *Polysemanticity* is characterized by the activation pattern of a single unit asciimath:[a_i] across diverse inputs.
+- *Superposition* is characterized by the relationship $\mathbf{x} = \mathbf{W} \mathbf{f}$ where multiple sparse features $\mathbf{f}$ are encoded in $\mathbf{x}$.
+- *Polysemanticity* is characterized by the activation pattern of a single unit $a_i$ across diverse inputs.
 
 **Causal Relationship**:
 Superposition can *cause* polysemanticity, but polysemanticity doesn't necessarily imply superposition. When features are superposed, individual neurons will naturally respond to multiple features, leading to polysemantic behavior. However, polysemanticity can also arise from other factors such as hierarchical feature learning or distributed representations.
@@ -138,29 +138,29 @@ Superposition can *cause* polysemanticity, but polysemanticity doesn't necessari
 
 === Mathematical Relationship
 
-To understand the relationship more precisely, consider a simplified model where asciimath:[n] features are superposed in asciimath:[d] dimensions. The activation of neuron asciimath:[i] can be written as:
+To understand the relationship more precisely, consider a simplified model where $n$ features are superposed in $d$ dimensions. The activation of neuron $i$ can be written as:
 
-asciimath:[a_i = sum_{j=1}^n W_{ij} f_j]
+$a_i = \sum_{j=1}^n W_{ij} f_j$
 
-where asciimath:[W_{ij}] is the weight connecting feature asciimath:[j] to neuron asciimath:[i], and asciimath:[f_j] is the activation of feature asciimath:[j].
+where $W_{ij}$ is the weight connecting feature $j$ to neuron $i$, and $f_j$ is the activation of feature $j$.
 
-If multiple features asciimath:[f_j] are active simultaneously (due to superposition), then neuron asciimath:[i] will respond to multiple features, exhibiting polysemanticity. The degree of polysemanticity depends on:
+If multiple features $f_j$ are active simultaneously (due to superposition), then neuron $i$ will respond to multiple features, exhibiting polysemanticity. The degree of polysemanticity depends on:
 
 1. **Feature Sparsity**: Lower sparsity leads to more features being active simultaneously, increasing polysemanticity.
 
-2. **Weight Distribution**: If weights asciimath:[W_{ij}] are distributed across many features for each neuron, polysemanticity increases.
+2. **Weight Distribution**: If weights $W_{ij}$ are distributed across many features for each neuron, polysemanticity increases.
 
 3. **Feature Correlation**: If features are correlated, they're more likely to co-activate, leading to polysemantic responses.
 
-The expected polysemanticity of neuron asciimath:[i] can be quantified as:
+The expected polysemanticity of neuron $i$ can be quantified as:
 
-asciimath:[text{Polysemanticity}_i = E[|{j : W_{ij} f_j > theta}|]]
+$\text{Polysemanticity}_i = E[|{j : W_{ij} f_j > \theta}|$]
 
-where asciimath:[theta] is a threshold for meaningful activation, and the expectation is taken over the distribution of feature activations.
+where $\theta$ is a threshold for meaningful activation, and the expectation is taken over the distribution of feature activations.
 
 === Examples in Language Models
 
-**Superposition Example**: In a language model's word embedding layer, the concept "royalty" might be represented as a combination: asciimath:[mathbf{v}_{text{royalty}} = 0.3 mathbf{e}_{text{power}} + 0.4 mathbf{e}_{text{tradition}} + 0.2 mathbf{e}_{text{wealth}} + 0.1 mathbf{e}_{text{ceremony}}], where multiple dimensions jointly encode the concept.
+**Superposition Example**: In a language model's word embedding layer, the concept "royalty" might be represented as a combination: $\mathbf{v}_{\text{royalty}} = 0.3 \mathbf{e}_{\text{power}} + 0.4 \mathbf{e}_{\text{tradition}} + 0.2 \mathbf{e}_{\text{wealth}} + 0.1 \mathbf{e}_{\text{ceremony}}$, where multiple dimensions jointly encode the concept.
 
 **Polysemanticity Example**: A single neuron in the model might activate for both "queen" and "chess" because both concepts involve the word "queen," even though they're semantically distinct. This neuron exhibits polysemanticity by responding to multiple unrelated concepts.
 
@@ -168,7 +168,7 @@ where asciimath:[theta] is a threshold for meaningful activation, and the expect
 
 Understanding the distinction between superposition and polysemanticity has important implications for interpretability research:
 
-**Research Methodology**: 
+**Research Methodology**:
 - Studies of *superposition* should focus on population-level analyses of representational spaces using techniques like principal component analysis, t-SNE, or more sophisticated manifold learning methods.
 - Studies of *polysemanticity* should focus on individual unit analyses using techniques like feature visualization, activation maximization, and dataset examples.
 
@@ -188,13 +188,13 @@ Sparsity is the cornerstone that makes superposition possible in neural networks
 
 There are several types of sparsity relevant to understanding superposition:
 
-**Activation Sparsity**: For any given input, only a subset of neurons in a layer are significantly active. Mathematically, if asciimath:[mathbf{a}] represents the activation vector of a layer, activation sparsity means:
-asciimath:[||mathbf{a}||_0 << d]
-where asciimath:[||mathbf{a}||_0] is the L0 norm (number of non-zero elements) and asciimath:[d] is the layer dimension.
+**Activation Sparsity**: For any given input, only a subset of neurons in a layer are significantly active. Mathematically, if $\mathbf{a}$ represents the activation vector of a layer, activation sparsity means:
+$\|\mathbf{a}\|_0 << d$
+where $\|\mathbf{a}\|_0$ is the L0 norm (number of non-zero elements) and $d$ is the layer dimension.
 
-**Feature Sparsity**: In the context of feature representations, this means that for any given input, only a small number of semantic or syntactic features are relevant. If asciimath:[mathbf{f}] represents a feature vector, feature sparsity implies:
-asciimath:[||mathbf{f}||_0 = s << n]
-where asciimath:[s] is the number of active features and asciimath:[n] is the total number of possible features.
+**Feature Sparsity**: In the context of feature representations, this means that for any given input, only a small number of semantic or syntactic features are relevant. If $\mathbf{f}$ represents a feature vector, feature sparsity implies:
+$\|\mathbf{f}\|_0 = s << n$
+where $s$ is the number of active features and $n$ is the total number of possible features.
 
 **Weight Sparsity**: This refers to the fraction of neural network weights that are close to zero, though this is less directly related to superposition than activation and feature sparsity.
 
@@ -203,22 +203,22 @@ where asciimath:[s] is the number of active features and asciimath:[n] is the to
 The relationship between sparsity and superposition can be understood through the lens of compressed sensing theory, which provides mathematical guarantees for when sparse signals can be recovered from compressed measurements.
 
 Consider the fundamental equation of superposition:
-asciimath:[mathbf{x} = mathbf{W} mathbf{f}]
+$\mathbf{x} = \mathbf{W} \mathbf{f}$
 
 where:
-- asciimath:[mathbf{x} in RR^d] is the neural representation (with asciimath:[d] dimensions)
-- asciimath:[mathbf{f} in RR^n] is the feature vector (with asciimath:[n] features, where asciimath:[n >> d])
-- asciimath:[mathbf{W} in RR^{d times n}] is the feature dictionary matrix
+- $\mathbf{x} \in \mathbb{R}^d$ is the neural representation (with $d$ dimensions)
+- $\mathbf{f} \in \mathbb{R}^n$ is the feature vector (with $n$ features, where $n >> d$)
+- $\mathbf{W} \in \mathbb{R}^{d \times n}$ is the feature dictionary matrix
 
-For successful superposition (i.e., the ability to recover asciimath:[mathbf{f}] from asciimath:[mathbf{x}]), compressed sensing theory tells us that we need:
+For successful superposition (i.e., the ability to recover $\mathbf{f}$ from $\mathbf{x}$), compressed sensing theory tells us that we need:
 
-1. **Sparsity Condition**: asciimath:[||mathbf{f}||_0 leq s] for some sparsity level asciimath:[s]
+1. **Sparsity Condition**: $\|\mathbf{f}\|_0 \leq s$ for some sparsity level $s$
 
-2. **Restricted Isometry Property (RIP)**: The matrix asciimath:[mathbf{W}] must satisfy the RIP condition. For any asciimath:[s]-sparse vector asciimath:[mathbf{f}], there exists a constant asciimath:[delta_s < 1] such that:
-asciimath:[(1 - delta_s)||mathbf{f}||_2^2 leq ||mathbf{W} mathbf{f}||_2^2 leq (1 + delta_s)||mathbf{f}||_2^2]
+2. **Restricted Isometry Property (RIP)**: The matrix $\mathbf{W}$ must satisfy the RIP condition. For any $s$-sparse vector $\mathbf{f}$, there exists a constant $\delta_s < 1$ such that:
+$(1 - \delta_s)\|\mathbf{f}\|_2^2 \leq \|\mathbf{W} \mathbf{f}\|_2^2 \leq (1 + \delta_s)\|\mathbf{f}\|_2^2$
 
 3. **Capacity Bound**: The maximum sparsity level that allows perfect recovery is approximately:
-asciimath:[s_{max} approx frac{d}{2 log(n/d)}]
+$s_{max} \approx \frac{d}{2 log(n/d)}$
 
 This mathematical framework reveals why sparsity is essential: without sufficient sparsity, the compressed representation becomes ambiguous, and different feature combinations can produce similar neural activations, making recovery impossible.
 
@@ -237,7 +237,7 @@ In language models, sparsity emerges naturally from several sources:
 **Attention Sparsity**: Transformer models naturally develop sparse attention patterns, where attention heads focus on a small number of relevant tokens rather than distributing attention uniformly across all positions.
 
 The mathematical representation of attention sparsity can be expressed as:
-asciimath:[text{Attention}(Q, K, V) = text{softmax}(frac{QK^T}{sqrt{d_k}})V]
+$\text{Attention}(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$
 
 In practice, the softmax operation creates naturally sparse attention weights, with most attention concentrated on a few key positions.
 
@@ -251,9 +251,9 @@ Sparsity and superposition exist in a mutually reinforcing relationship:
 
 This feedback loop can be modeled mathematically. Consider a learning objective that combines reconstruction loss with a sparsity penalty:
 
-asciimath:[mathcal{L} = ||mathbf{f} - hat{mathbf{f}}||_2^2 + lambda ||mathbf{f}||_1]
+$\mathcal{L} = \|\mathbf{f} - \hat{\mathbf{f}}\|_2^2 + \lambda \|\mathbf{f}\|_1$
 
-where asciimath:[hat{mathbf{f}} = mathbf{W}^{(2)} mathbf{W}^{(1)} mathbf{f}] is the reconstructed feature vector, and asciimath:[lambda] controls the sparsity penalty. The L1 penalty encourages sparsity, which in turn enables better superposition.
+where $\hat{\mathbf{f}} = \mathbf{W}^{(2)} \mathbf{W}^{(1)} \mathbf{f}$ is the reconstructed feature vector, and $\lambda$ controls the sparsity penalty. The L1 penalty encourages sparsity, which in turn enables better superposition.
 
 === Quantifying Sparsity in Real Models
 
@@ -261,18 +261,18 @@ Measuring sparsity in actual language models requires sophisticated techniques:
 
 **Activation-Based Measures**:
 The sparsity of layer activations can be measured using:
-asciimath:[text{Sparsity} = 1 - frac{||mathbf{a}||_0}{d}]
+$\text{Sparsity} = 1 - \frac{\|\mathbf{a}\|_0}{d}$
 where higher values indicate greater sparsity.
 
 **Distribution-Based Measures**:
 Many researchers use the Gini coefficient to measure activation sparsity:
-asciimath:[text{Gini} = frac{sum_{i=1}^d (2i - d - 1) a_i}{d sum_{i=1}^d a_i}]
-where asciimath:[a_i] are the sorted activation values.
+$\text{Gini} = \frac{\sum_{i=1}^d (2i - d - 1) a_i}{d \sum_{i=1}^d a_i}$
+where $a_i$ are the sorted activation values.
 
 **Information-Theoretic Measures**:
 Entropy-based measures capture the effective dimensionality:
-asciimath:[text{Effective Dim} = 2^{H(mathbf{a})}, text{where } H(mathbf{a}) = -sum_{i} p_i log_2 p_i]
-and asciimath:[p_i] represents the normalized activation probabilities.
+$\text{Effective Dim} = 2^{H(\mathbf{a})}, \text{where } H(\mathbf{a}) = -\sum_{i} p_i log_2 p_i$
+and $p_i$ represents the normalized activation probabilities.
 
 === Empirical Evidence from Language Models
 
@@ -312,7 +312,7 @@ The discovery of superposition in neural networks has profound implications for 
 
 **Beyond Linear Separability**: Traditional machine learning theory often assumes that different concepts or features occupy distinct, linearly separable regions in feature space. Superposition demonstrates that neural networks can learn much more sophisticated representational schemes where multiple concepts can coexist in overlapping regions of the same space.
 
-**Capacity Bounds**: Classical capacity bounds, such as the VC dimension, may significantly underestimate the true representational power of neural networks. If a network can represent asciimath:[n] features in a asciimath:[d]-dimensional space where asciimath:[n >> d], this suggests that capacity scales not just with the number of parameters, but with the sparsity structure of the data.
+**Capacity Bounds**: Classical capacity bounds, such as the VC dimension, may significantly underestimate the true representational power of neural networks. If a network can represent $n$ features in a $d$-dimensional space where $n >> d$, this suggests that capacity scales not just with the number of parameters, but with the sparsity structure of the data.
 
 **Information Bottleneck Theory**: The information bottleneck principle suggests that neural networks learn to compress input information while preserving task-relevant information. Superposition provides a concrete mechanism for achieving this compression that goes beyond simple dimensionality reduction.
 
