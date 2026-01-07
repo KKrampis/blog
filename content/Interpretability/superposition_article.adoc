@@ -1,7 +1,6 @@
-= Superposition in Large Language Models: Understanding Feature Representation Beyond Dimensionality
-:author: Professor K.Krampis
-:doctype: article
-:stem: latexmath
+---
+Title: Superposition in Large Language Models: Understanding Feature Representation Beyond Dimensionality
+---
 
 == Introduction
 
