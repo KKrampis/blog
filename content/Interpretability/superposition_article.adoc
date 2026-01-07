@@ -1,5 +1,5 @@
 ---
-Title: Superposition in Large Language Models: Understanding Feature Representation Beyond Dimensionality
+Title: Superposition in Large Language Models Understanding Feature Representation Beyond Dimensionality
 ---
 
 == Introduction
