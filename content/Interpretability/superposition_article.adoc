@@ -27,6 +27,7 @@ The implications of superposition extend far beyond theoretical curiosity. Under
 === Theoretical Foundations
 To grasp superposition in neural networks, we must first understand the mathematical framework that governs neural representations. Consider a neural network layer with $d$ dimensions that needs to represent $n$ features, where $n >> d$. In a traditional linear model, this would be impossible without significant information loss. However, superposition theory suggests that if the features are sufficiently sparse, the network can learn to represent all $n$ features in the $d$-dimensional space.
 
+image::superposition_nn.svg[width=80%,opts=inline]
 
 The mathematical foundation of superposition can be understood through the lens of compressed sensing and sparse coding. Let's define our feature space more formally:
 
@@ -56,6 +57,9 @@ The angle between feature vectors becomes crucial in superposition. The ability 
 $\mu = \max_{i \neq j} |\langle \mathbf{w}_i, \mathbf{w}_j \rangle|$
 
 where $\mathbf{w}_i$ and $\mathbf{w}_j$ are normalized feature vectors (columns of $\mathbf{W}$). Lower coherence values indicate that features are more distinguishable, enabling better superposition.
+
+image::geometry_superposition.svg[width=80%,opts=inline]
+
 
 === Toy Models and Empirical Evidence
 
