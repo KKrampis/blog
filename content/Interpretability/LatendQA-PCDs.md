@@ -2,7 +2,7 @@
 Title: Deep Architecture and Behavioral Grounding in Introspective Interpretability
 ---
 
-# Deep Architecture and Behavioral Grounding in Introspective Interpretability: A Comprehensive Analysis of LatentQA and Predictive Concept Decoders
+# A Comprehensive Analysis of LatentQA and Predictive Concept Decoders
 
 The trajectory of large language model development has necessitated a shift from purely behavioral evaluations to deeper, introspective methods of interpretability. As these systems scale, the complexity of their internal activations makes traditional "top-down" transparency—often limited to scalar probes or single-token outputs—increasingly insufficient for capturing the nuance of model intent and latent reasoning.[1, 2, 3] To address this "transparency gap," the Transluce research group has pioneered a new paradigm of interpretability assistants, most notably through the development of LatentQA and Predictive Concept Decoders.[4, 5] These systems reframe interpretability as a scalable prediction problem, training specialized "decoders" to translate high-dimensional mathematical activations into human-readable natural language.[4, 6, 7] This research report provides an exhaustive examination of the methodologies, architectural innovations, and empirical findings associated with these frameworks, situated within the broader mission of Transluce to advance industry standards for responsible AI deployment.[8]
 
@@ -13,18 +13,6 @@ The trajectory of large language model development has necessitated a shift from
 The fundamental challenge in modern artificial intelligence safety is the "black box" nature of neural network activations. While a model's output can be observed, the internal computations that lead to that output remain largely opaque. Previous monitoring techniques have relied on "impoverished" tools, such as probes that identify specific sentiment vectors or honesty directions.[2, 9] However, these methods fail to explain the underlying logic or distinguish between models that produce similar outputs but possess different internal motivations.[2, 9] For example, a model might refuse a request citing "user safety" when its latent representation actually reflects concerns regarding "legal liability".[4, 7]
 
 Transluce was established as an independent, nonprofit research laboratory to address these limitations through open and scalable technology.[5, 8, 10] Co-founded by a professor at UC Berkeley and a researcher at MIT, the organization focuses on building AI-driven tools that can direct massive computational power toward explaining complex systems.[5, 10] The research team, supported by a distinguished board of advisors including Yoshua Bengio and Percy Liang, operates with the belief that responsible deployment is inextricably linked to detailed, verifiable understanding of model internals.[5, 8]
-
-| Name | Role / Affiliation | Expertise / Contribution |
-|---|---|---|
-| [Redacted] | Co-Founder, CEO (UC Berkeley) | Designed MMLU; AI safety and robustness research [8, 10] |
-| [Redacted] | Co-Founder, Chief Scientist (MIT) | Lead developer of MAIA and interpretability agents [5, 10] |
-| Tiffany Tzeng | Chief of Staff | Organizational strategy and leadership [8] |
-| Conrad Stosz | Head of Governance | AI policy and responsible deployment frameworks [8] |
-| Yoshua Bengio | Advisor (U. Montréal / Mila) | Foundational neural network research and safety [8, 11] |
-| Percy Liang | Advisor (Stanford / HAI) | Evaluation and benchmarking of foundation models [8] |
-| Jacob Andreas | Advisor (MIT) | Computational linguistics and model interpretability [8] |
-
----
 
 ## LatentQA and the Mechanism of Latent Interpretation Tuning
 
