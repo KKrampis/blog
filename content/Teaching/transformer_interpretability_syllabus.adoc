@@ -1,0 +1,139 @@
+---
+title: "Transformer Architecture LLMs and Mechanistic Interpretability"
+---
+
+BIO 47102 / 79006 • 2025
+
+== 🤖 Course Overview
+
+Explore the foundations of transformer architectures and modern techniques
+for mechanistically interpreting neural language models. Gain deep
+understanding of self-attention mechanisms, cutting-edge interpretability
+methods including circuit analysis, feature decomposition, and attribution
+graphs, combining theoretical foundations with hands-on implementation
+and analysis of real models.
+
+*Credits*
+
+3 Credits (Lecture)
+
+*Level*
+
+400 + 700
+
+*Format*
+
+In-person - synchronous +
+Weekly lectures: 3 hours
+
+*Class Size*
+
+Graduate seminar
+
+*Prerequisites:* Machine Learning fundamentals, Python/PyTorch
+
+== 📚 Course Syllabus
+
+[.week-number]#Week 1:# [.topic]#Introduction to Transformers#
+[.description]#Course overview and motivation, attention mechanism
+intuition, transformer architecture overview, encoder vs. decoder vs.
+encoder-decoder models, and position in the NLP landscape#
+
+[.week-number]#Week 2:# [.topic]#Self-Attention Mechanism Deep Dive#
+[.description]#Query, key, value formulation, scaled dot-product attention
+mathematics, multi-head attention architecture, computational complexity
+analysis, softmax normalization, and information routing through attention#
+
+[.week-number]#Week 3:# [.topic]#Transformer Architecture Components#
+[.description]#Positional encodings (sinusoidal and learned), feed-forward
+networks (MLP layers), residual connections and layer normalization, token
+embeddings and output layers, absolute vs. relative position encodings,
+and information flow through residual paths#
+
+[.week-number]#Week 4:# [.topic]#Training Transformers#
+[.description]#Training dynamics and challenges, gradient issues in deep
+transformers, layer normalization interactions, and Adam optimizer
+considerations#
+
+[.week-number]#Week 5:# [.topic]#Advanced Transformer Extensions#
+[.description]#Sparse attention mechanisms, long-range dependencies,
+attention approximation methods, memory efficiency techniques, and
+trade-offs in sparse attention#
+
+[.week-number]#Week 6:# [.topic]#Introduction to Mechanistic Interpretability#
+[.description]#Goals of mechanistic interpretability, circuits hypothesis,
+feature vs. neuron analysis, superposition phenomenon, polysemantic vs.
+monosemantic neurons, and the toy models approach#
+
+[.week-number]#Week 7:# [.topic]#Toy Models and Superposition#
+[.description]#Superposition hypothesis, toy model construction, feature
+geometry in neural representations, interference and capacity analysis,
+sparse features and coding theory, and privileged vs. antiprivileged bases#
+
+[.week-number]#Week 8:# [.topic]#Induction Heads and In-Context Learning#
+[.description]#Discovery of induction heads, in-context learning mechanisms,
+phase transitions in training, copying and matching circuits, induction
+circuit structure, emergent capabilities during training, and role in
+few-shot learning#
+
+[.week-number]#Weeks 9:# [.topic]#Monosemantic Features and Dictionary Learning#
+[.description]#Sparse autoencoders for feature extraction, dictionary
+learning applied to neural networks, monosemantic feature discovery,
+overcomplete representations, feature activation patterns, and automated
+interpretability scoring#
+
+[.week-number]#Week 10:# [.topic]#Circuit Analysis and Causal Tracing#
+[.description]#Path patching and activation patching, causal interventions,
+circuit discovery methodology, validation through ablations, counterfactual
+analysis, logit attribution, direct vs. indirect effects, and circuit
+completeness metrics#
+
+[.week-number]#Week 11:# [.topic]#Attribution Graphs and Cross-Layer Analysis#
+[.description]#Feature attribution methods, cross-layer transcoders (CLTs),
+attribution graph construction, information flow visualization, linear
+approximation of feature interactions, graph pruning strategies, and
+reconstruction fidelity#
+
+[.week-number]#Week 12:# [.topic]#Attention Pattern Analysis#
+[.description]#Attention head specialization, compositional attention
+patterns, attention flow and copying, multi-layer attention interactions,
+head roles (induction, previous token, etc.), composition through OV and
+QK circuits, and attention-MLP interaction#
+
+[.week-number]#Week 13:# [.topic]#Scaling and Real-World Models#
+[.description]#Interpretability at scale, limitations of current methods,
+computational challenges, automated vs. manual analysis, emergence in
+large models, and research frontiers#
+
+[.week-number]#Week 14:# [.topic]#Advanced Topics and Applications#
+[.description]#Steering and model editing, adversarial interpretability,
+safety applications, ethical considerations, activation engineering,
+feature manipulation, interpretability for alignment, and transparency
+vs. security#
+
+[.week-number]#Week 15:# [.topic]#Course Wrap-up# [.description]#Open
+problems in interpretability, future research directions, and career
+paths in interpretability#
+
+== 🎯 Learning Outcomes
+
+Students will be able to:
+
+[.badge]#Understand Transformer Architectures# [.badge]#Apply Mechanistic Interpretability#
+[.badge]#Identify Computational Circuits# [.badge]#Design Intervention Experiments#
+[.badge]#Analyze Attention Patterns# [.badge]#Evaluate Interpretability Research#
+
+== 🔬 Hands-On Experience
+
+Implement transformer components from scratch in PyTorch and train small
+language models. Build and analyze toy superposition models to understand
+feature geometry. Apply sparse autoencoders for dictionary learning and
+monosemantic feature discovery. Conduct causal tracing and path patching
+experiments to identify computational circuits. Perform model steering
+experiments using activation engineering techniques and explore
+attribution graphs for real-world LLMs.
+
+*Grading:* 5 Assignments (40%) • Midterm Model Analysis (20%) • Final Research Project (30%) • Participation (10%)
+
+*Instructor: Assoc. Prof. Konstantinos Krampis* +
+Contact: kk104@hunter.cuny.edu
