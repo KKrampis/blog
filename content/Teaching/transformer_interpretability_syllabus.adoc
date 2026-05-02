@@ -135,5 +135,5 @@ attribution graphs for real-world LLMs.
 
 *Grading:* 5 Assignments (40%) • Midterm Model Analysis (20%) • Final Research Project (30%) • Participation (10%)
 
-*Instructor: Assoc. Prof. Konstantinos Krampis* +
-Contact: kk104@hunter.cuny.edu
+*Instructor: Prof. Konstantinos Krampis* +
+
