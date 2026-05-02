@@ -87,5 +87,4 @@ analysis. Apply differential expression analysis across conditions and
 cell types. Explore virtual cell models using the Arc Institute's STATE
 architecture and the Virtual Cell Challenge framework.
 
-*Instructor: Assoc. Prof. Konstantinos Krampis* +
-Contact: kk104@hunter.cuny.edu
+*Instructor: Prof. Konstantinos Krampis* +
