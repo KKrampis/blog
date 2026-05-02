@@ -1,3 +1,21 @@
 ---
-title: "Teaching"
+title: "Courses taught at the City University of New York"
 ---
+
+
+**Transcriptomics and AI for Genome Analysis** (BIO 37105/77105) introduces
+students to the intersection of RNA biology and artificial intelligence. It
+covers the fundamentals of gene expression and single-cell RNA sequencing,
+progressing through computational analysis techniques and into machine learning
+and transformer-based models applied to biological data. The capstone focus is
+on virtual cell modeling — using AI to predict how cells respond to genetic
+perturbations without wet-lab experiments.
+
+**Transformer Architecture LLMs and Mechanistic Interpretability** (BIO 47102/79006)
+takes a deeper dive into the inner workings of the AI models introduced in the
+first course. Students build transformers from scratch, study the mathematics of
+self-attention, and then pivot to mechanistic interpretability — a research
+discipline focused on reverse-engineering what neural networks actually compute.
+Topics progress from toy models and superposition through circuit analysis,
+sparse autoencoders, and attribution graphs, culminating in real-world
+applications like model steering and AI safety.
