@@ -4,33 +4,36 @@ title: "CV and Research"
 
 Associate Professor, Hunter College, City University of New York
 
-https://www.linkedin.com/in/kkrampis[LinkedIn] |
-https://github.com/KKrampis[Github] |
-https://kkrampis.github.io/blog/[AI/ML Research Blog] |
-https://www.gc.cuny.edu/people/konstantinos-krampis[CUNY Faculty Page] |
+https://www.linkedin.com/in/kkrampis[LinkedIn] | 
+https://github.com/KKrampis[Github] | 
+https://kkrampis.github.io/blog/[AI/ML Research Blog] | 
+https://www.gc.cuny.edu/people/konstantinos-krampis[CUNY Faculty Page] | 
 https://scholar.google.com/citations?hl=en&user=GGsQkQ8AAAAJ&view_op=list_works&sortby=pubdate[Google Scholar]
 
 == AI Interpretability - Safety Training
 
+* Selected for *https://www.meridiancambridge.org/research-accelerator-week[Research Accelerator Week]*, Meridian - Cambridge, May 2026, to develop a competitive research proposal for Coefficient Giving
 * *https://www.iaseai.org/our-programs/iaseai26[International Association for Safe and Ethical AI]* Member and Conference Invitee, UNESCO, France, Spring 2026
 * *https://ai-evaluation.org/[International AI Evaluation]* program participant, Spring 2026
-* *https://www.aisafety.camp/#h.t14iaqf5qbl7[AI Safety Camp]* mentor/project lead for Fall 2025, "AutoCircuit: Automated Discovery of Interpretable Reasoning Patterns in LLMs"
+* *https://www.aisafety.camp/#h.t14iaqf5qbl7[AI Safety Camp]* mentor/project lead for Fall 2025, "AutoCircuit: Automated Discovery of Interpretable Reasoning Patterns in LLMs", https://docs.google.com/document/d/1Mv1JYPQ-xvbgk_eoeMG5anaVEIyeG970UIEP_HTFjN4/edit[full project description]
 * *https://www.tutke.org/en/fundamentals-of-ai-safety[Fundamentals of AI Safety]* program participant, Fall 2025
 * *https://www.successif.org/[Successif]* AI Risk career development program participant, Fall 2025
 * *BlueDot Impact https://bluedot.org/courses/agi-strategy[AGI Strategy]* program participant, Fall 2025
-* *BlueDot Impact https://bluedot.org/courses/technical-ai-safety[Technical AI Safety]* Winter 2026 cohort (pending application)
+* *BlueDot Impact https://bluedot.org/courses/technical-ai-safety[Technical AI Safety]* Winter 2026 cohort
 
 == AI/ML Research and Teaching Highlights
 
-* *Transcriptomics: AI for Genome Analysis*, new course to start in Spring 2026 with a focus on LLMs trained with genomic data, https://kkrampis.github.io/blog/teaching/genomeai/index.html[syllabus available]
-* *Machine Learning for Bioinformatics* course taught at CUNY since 2020, covering deep neural networks, Transformer architecture, linear algebra and math for ML, AI safety and interpretability
+* *https://kkrampis.github.io/SyntheticLLMs/[Publication:]* Geometric Feature Invariance for Transferable Interpretability
+* *https://kkrampis.github.io/autocircuit/[Publication:]* Interpretability of Analogical Reasoning in Gemma-2-2B
+* *https://github.com/KKrampis/SyntheticLLMs/blob/main/Geometric_SAE_Invariance%20v1.pdf[Presentation:]* Geometric Feature Invariance for Transferable Interpretability
+* *https://kkrampis.github.io/blog/teaching/genomeai/index.html[Transcriptomics AI for Genome Analysis]*, new course to start in Spring 2026 with a focus on LLMs trained with genomic data
+* *https://kkrampis.github.io/blog/teaching/transformer_interpretability_syllabus/index.html[Machine Learning for Bioinformatics]* course taught at CUNY since 2020, covering deep neural networks, Transformer architecture, linear algebra and math for ML, AI safety and interpretability
 * *Computational Molecular Biology* taught since 2015, with AI/ML for Bioinformatics included in course as of 2020
-* https://github.com/KKrampis/autocircuit[AutoCircuit]: Automated Discovery of Interpretable Reasoning Patterns in Large Language Models
-* https://github.com/KKrampis/GraphML-Bioinformatics-Course/tree/main/BioinformAI[Python Jupyter notebooks] for teaching machine learning for biological network data (graph deep neural networks)
-* https://github.com/KKrampis/Bioinform-Geometric-ML-Paper[Github repository] for paper published on geometric and graph deep learning, reviewing ML applications for bioinformatics
-* https://www.jcvi.org/research/jcvi-cloud-biolinux[Cloud BioLinux co-founder], first Linux for bioinformatics on the Amazon cloud (Krampis et al. 2012)
-* https://github.com/KKrampis/AutomaTikZ/commits/main/[Extended AI Latex graph (TikZ) app] to utilize models from HuggingFace Inference Endpoints
-* https://github.com/KKrampis/codex.nvim/commits/main/[Modified Neovim plugin] to run OpenAI Codex as panel within the editor
+* *https://github.com/KKrampis/GraphML-Bioinformatics-Course[Python Notebooks]* for teaching graph ML / deep learning for biological network data
+* *https://github.com/KKrampis/Bioinform-Geometric-ML-Paper[Github repository]* for paper published on geometric and graph deep learning, with applications of graph ML on bioinformatics data
+* *https://en.wikipedia.org/wiki/CloudBioLinux[Cloud BioLinux founder]*, first Linux for bioinformatics on the Amazon cloud (*https://pubmed.ncbi.nlm.nih.gov/22429538/[Krampis et al. 2012]*)
+* *https://github.com/KKrampis/AutomaTikZ[AI Latex graph (TikZ) app]* to utilize models from HuggingFace Inference Endpoints
+* *https://github.com/KKrampis/codex.nvim[Modified Neovim plugin]* to run OpenAI Codex as panel within the editor
 
 == Education
 
@@ -66,19 +69,12 @@ https://scholar.google.com/citations?hl=en&user=GGsQkQ8AAAAJ&view_op=list_works&
 * *2014:* NIMHD Award, National Institutes of Health, $485,000
 * *2012-2016:* Research Award, Advances in Biological Informatics Program, National Science Foundation, $4,992,581
 
-== Teaching at the City University of New York
-
-* 2014 - 2015: *Introduction to Python Programming*
-* 2015 - 2019: *Genomic Sequencing and Bioinformatics Data Science*
-* 2015 - current: *Computational Molecular Biology with Machine Learning*
-* 2020 - current: *Machine Learning for Bioinformatics*
-
-In addition to the courses above, I have mentored and trained many undergraduate students in my laboratory who performed research and presented at the Hunter College Undergraduate STEM Conference, the SPEECH Cancer Health Disparities Conference and additional scientific meetings. (Details further in the student section of the CV).
-
-== Peer-reviewed Publications (selected)
+== Publications (selected)
 
 === Bioinformatics, Machine Learning, Cloud Computing
 
+* Krampis K., Williams-King D., Chanin D. (2026) "Geometric Feature Invariance for Transferable Interpretability", https://kkrampis.github.io/SyntheticLLMs/[available online].
+* Alagbe O., Lawrence J., Maheshwar A., Krampis K. (2026) "Interpretability of Analogical Reasoning in Gemma-2-2B", https://kkrampis.github.io/autocircuit/[available online].
 * Krampis, K., Ross, E., Ogunwobi, O., Ma, G., Mazumder, R., Wultsch, C. (2023) "Principles of Artificial Neural Networks and Machine Learning for Bioinformatics Applications". _Preprints.org_, 2023060042.
 * Krampis K. (2021) "Democratizing access to genomics and personalized medicine for underrepresented research and clinical institutions through easily accessible bioinformatics platforms". _BioTechniques_ 72(2):36-38.
 * Brown SM, Chen H, Hao Y, Laungani BP, Ali TA, Dong C, Lijeron C, Kim B, Wultsch C, Pei Z and Krampis K. (2019) "MGS-Fast: Metagenomic shotgun data fast annotation using microbial gene Catalogs". _GigaScience_ 8:20, giz020.
@@ -95,7 +91,7 @@ In addition to the courses above, I have mentored and trained many undergraduate
 * Krampis K, Booth T, Chapman B, Tiwari B, Field D and Nelson KE. (2012) "Cloud Biolinux: pre-configured and on-demand computing for the genomics community". _BMC Bioinformatics_ 13:42.
 * Krampis K. (2007) "Semantic Web Bioinformatics: distilling knowledge by mining heterogeneous data". _VBI e-connections_ 2(3):2.
 
-=== Microbiomics, Cancer and other Biological Research
+=== Microbiome, Cancer and other Biological Research
 
 * Naidoo MK, Levine F, Gillot T, Orunmuyi AT, Olapade-Olaopa EO, Ali TA, Krampis K and Ogunwobi OO. (2020) "MicroRNA-1205 regulation of FRYL in metastatic castration-resistant prostate cancer". _Clinical and Experimental Metastasis_ 36(2).
 * King CH, Desai H, Sylvetsky A, LoTempio J, Ayanyan S, Gasparyan L, Carrie J, Keith Crandall K, Fochtman B, Naila Gulzar N, Paul Howell P, Issa N, Krampis K, Mishra L, Morizono H, Ren Y, Simonyan V, Smith K, VedBrat S and Mazumder R. (2019) "Baseline human gut microbiota profile in healthy people and standard reporting template". _PLoS ONE_ 14(9):e0206484.
@@ -116,9 +112,34 @@ In addition to the courses above, I have mentored and trained many undergraduate
 * Goll JB, Szpakowski S, Krampis K and Nelson KE. (2014) "Metagenomics and Microbiomes", in _Bioinformatics and Data Analysis in Microbiology_, published by Caister Academic Press, Norfolk, U.K.
 * Nelson KE, Madupu R, Szpakowski S, Goll JB, Krampis K and Methe BA. (2014) "Next-generation sequencing, metagenomes, and the human microbiome", in _Next-Generation Sequencing: Current Technologies and Applications_, published by Caister Academic Press, Norfolk, U.K.
 * Quirino BF, Chaves Barreto C, Pappas GJ, Zengler K, Krampis K and Krueger RH. (2013) "Genomes and Post-Genome Technology", in _Prokaryotic Biology and Symbiotic Associations_, published by Springer GmbH & Co., Berlin, Heidelberg, Germany.
-* Madupu R, Rogers Yu-H, Rusch D, Miller J, Krampis K and Nelson KE. (2012) "Microbiomes", in _Encyclopedia of Molecular Cell Biology and Molecular Medicine_, published by Wiley-VCH Verlag GmbH Germany.
-* Miller J, Rusch D, Krampis K, Tovichgrechko A, Sutton G, Yooseph S and Nelson KE. (2012) "Bioinformatics for Genomes and Metagenomes in Microbial Ecology Studies", in _Infectious Micro-ecology: Theory and Applications_, published by Wiley-VCH Verlag GmbH & Co., Germany.
-* Tyler BM, Jiang RHY, Zhou L, Tripathy S, Dou D, Torto-Alalibo T, Li H, Mao Y, Liu B, Vega-Sanchez M, Mideros SX, Hanlon R, Smith, BM, Krampis K et al. (2008) "Functional genomics and bioinformatics of the Phytophthora sojae soybean interaction", in _Genomics of Disease_, published by Springer Science, New York, USA.
+
+== Invited talks and workshop presentations
+
+* "Geometric Feature Invariance for Transferable Interpretability", ERA Fellowship Research Projects Conference, London, UK, March 2026
+* "AutoCircuit: Automated Discovery of Interpretable Reasoning Patterns in LLMs", AI Safety Camp / Minimal AI Safety Unconference, Fall 2025
+* "BCO in AI: Leveraging Large Language Models for Biocompute Object Generation in Bioinformatics", BioCompute Conference and Workshop, FDA White Oak Campus, May 10, 2024
+* "Artificial Intelligence and Deep Learning for Bioinformatics: current progress and future prospects". Data Science Research Survey Seminar, PhD Program in Computer Science, CUNY Graduate Center, May 2021 (Online-remote meeting)
+* "Bioinformatics infrastructure and services development at the Bioinformatics and Biostatistics Core (BBC) of the Temple University – Fox Chase Cancer Center - Hunter College Partnership, Award year 3 progress". NIH U54 Cancer Health Disparities Progress Review Meeting, May 2021 (Online-remote meeting)
+* "Next Generation Computational Infrastructures for Accessible, Standardized, Scalable Bioinformatics". Lawrence Berkeley National Laboratory, September 2020 (Online-remote meeting)
+* "Next Generation Computational Infrastructures for Accessible, Standardized, Scalable Bioinformatics", Food and Drug Administration, July 2019, Washington, DC, USA
+* "Programmability, complexity and computability of large-scale cellular epigenetic networks", Unconventional and Natural Computation Conference, June 2019, Tokyo, Japan
+* "Bioinformatics infrastructure and services development at the Bioinformatics and Biostatistics Core (BBC) of the Temple University – Fox Chase Cancer Center - Hunter College Partnership, Award year 1 progress". NIH U54 Cancer Health Disparities Progress Review Meeting, May 2019, Philadelphia, PA, USA
+* "Exporting Biological Compute Objects (BCO) for NGS data analysis pipelines specification on the Galaxy server", Biocompute Objects Workshop, May 2019, Washington, DC, USA
+* "Next Generation Computational Infrastructures for Accessible, Standardized, Scalable Bioinformatics", Genome Institute of Singapore, October 2018, Singapore
+* "Integrating DNA computing with NGS sequencing for reading molecular output with high I/O", Unconventional and Natural Computation Conference, June 2018, Fontainebleau, France
+* "Exporting Biological Compute Objects (BCO) from Docker container running Galaxy NGS data analysis pipelines", Biocompute Objects Workshop, March 2018, Washington, DC, USA
+* "MiCloud and BioDocklets: A Plug and Play, on-Premises Bioinformatics Cloud, Providing Seamless, Single-Step Execution of NGS Pipelines", Plant and Animal Genome (PAG) Conference, January 2018, San Diego, CA, USA
+* "Building the Next Generation of Bioinformatics Infrastructures for NGS Data Analysis", Department of Human Genetics, University of Pittsburgh, October 2017, Pittsburgh, PA, USA
+* "Interoperability of NextFlow workflows on the Google Cloud and the GA4GH platform/DREAM challenge", OpenBio CodeFest, Intelligent Systems for Molecular Biology Conference (ISMB), July 2017, Prague, Czech Republic
+* "STEM Movement Science and Art Education Initiative", two art works presented, in collaboration with the DNA Learning Center - Cold Spring Harbor Laboratory, at the International Society for Computational Biology (ISCB) Art in Science Meeting, July 2017, Prague, Czech Republic
+* "Microbiome Analysis on the Cloud Workshop", was selected as participant at this workshop from a population of applicants due to the specific work performed in the bioinformatics field. The workshop was organized by the Human Microbiome Project (HMP) consortium and the Institute of Genome Sciences, University of Maryland Medical School, June 2017, Baltimore, MD, USA
+* "Bio-Docklets: virtualization containers for single-step execution of NGS pipelines". GWU-FDA Symposium on Data Standards and Interoperability, National Institutes of Health, March 2017, Rockville, MD, USA
+* "Building the Next Generation of Bioinformatics Infrastructures for NGS Data Analysis", Univ. of Michigan, Dept. of Computational Medicine and Bioinformatics seminar series, January 2017, Ann Arbor, MI, USA
+* "A Platform for Developing Bioinformatics Analytics for Cloud, Cluster and Desktop Computers", presented at: Dept. of Biological Sciences, Lehman College, City University of New York, November 2016, NY, USA
+* "Leveraging cloud computing technologies for large-scale genome sequence data analysis, and the Cloud BioLinux platform", presented at: Cloud Computing in Bioinformatics 2012, Center For Genomic Regulation, Barcelona, Spain; Translational Bioinformatics On The Cloud Conference 2012, New Brunswick, NJ, USA; NIAID Bioinformatics Festival 2012, National Institutes of Health, Bethesda, MD, USA; NIAID Genomics Standards Consortium Conference 2011, European Bioinformatics Institute, Hinxton, UK; NIAID Cloud Computing (Chair), Next-Gen Sequencing Data Management 2010, Providence, RI, USA
+* "South Africa National Research Network Workshop - Cloud BioLinux for High Performance Data Analysis", Center of High Performance Computing, December 2011, Johannesburg, South Africa
+* "Solutions for Genome Sequence Data Analysis", National Institutes of Health, University of Limpopo, June 2011, South Africa
+* "Security and Resilience, Scale-Free Metabolic Networks", Institute of Human and Machine Cognition, April 2011, Ocala, FL, USA
 
 == Students and Mentoring
 
@@ -156,52 +177,6 @@ In addition to the courses above, I have mentored and trained many undergraduate
 * *Thahmina Ali*, Biological Sciences Major, Hunter College (graduation May 2015), performed research in Krampis' lab on "Implementation of a comprehensive, standardized, scalable, user-friendly, RNA-seq analysis pipeline" (accepted as Ph.D. student at Columbia University)
 * *Baekdoo Kim*, Computer Science Major, Hunter College (graduation December 2014), performed research in Krampis' lab on "The Visual Omics Explorer (VOE): Providing a Highly Interactive, Cross-Platform Portal for Omics Data Visualization", manuscript was published in 2016
 
-== Invited talks, workshops, and presentations
-
-* "Artificial Intelligence and Deep Learning for Bioinformatics: current progress and future prospects". Data Science Research Survey Seminar, PhD Program in Computer Science, CUNY Graduate Center, May 2021 (Online-remote meeting)
-* "Bioinformatics infrastructure and services development at the Bioinformatics and Biostatistics Core (BBC) of the Temple University – Fox Chase Cancer Center - Hunter College Partnership, Award year 3 progress". NIH U54 Cancer Health Disparities Progress Review Meeting, May 2021 (Online-remote meeting)
-* "Next Generation Computational Infrastructures for Accessible, Standardized, Scalable Bioinformatics". Lawrence Berkeley National Laboratory, September 2020 (Online-remote meeting)
-* "Next Generation Computational Infrastructures for Accessible, Standardized, Scalable Bioinformatics", Food and Drug Administration, July 2019, Washington, DC, USA
-* "Programmability, complexity and computability of large-scale cellular epigenetic networks", Unconventional and Natural Computation Conference, June 2019, Tokyo, Japan
-* "Bioinformatics infrastructure and services development at the Bioinformatics and Biostatistics Core (BBC) of the Temple University – Fox Chase Cancer Center - Hunter College Partnership, Award year 1 progress". NIH U54 Cancer Health Disparities Progress Review Meeting, May 2019, Philadelphia, PA, USA
-* "Exporting Biological Compute Objects (BCO) for NGS data analysis pipelines specification on the Galaxy server", Biocompute Objects Workshop, May 2019, Washington, DC, USA
-* "Next Generation Computational Infrastructures for Accessible, Standardized, Scalable Bioinformatics", Genome Institute of Singapore, October 2018, Singapore
-* "Integrating DNA computing with NGS sequencing for reading molecular output with high I/O", Unconventional and Natural Computation Conference, June 2018, Fontainebleau, France
-* "Exporting Biological Compute Objects (BCO) from Docker container running Galaxy NGS data analysis pipelines", Biocompute Objects Workshop, March 2018, Washington, DC, USA
-* "MiCloud and BioDocklets: A Plug and Play, on-Premises Bioinformatics Cloud, Providing Seamless, Single-Step Execution of NGS Pipelines", Plant and Animal Genome (PAG) Conference, January 2018, San Diego, CA, USA
-* "Building the Next Generation of Bioinformatics Infrastructures for NGS Data Analysis", Department of Human Genetics, University of Pittsburgh, October 2017, Pittsburgh, PA, USA
-* "Interoperability of NextFlow workflows on the Google Cloud and the GA4GH platform/DREAM challenge", OpenBio CodeFest, Intelligent Systems for Molecular Biology Conference (ISMB), July 2017, Prague, Czech Republic
-* "STEM Movement Science and Art Education Initiative", two art works presented, in collaboration with the DNA Learning Center - Cold Spring Harbor Laboratory, at the International Society for Computational Biology (ISCB) Art in Science Meeting, July 2017, Prague, Czech Republic
-* "Microbiome Analysis on the Cloud Workshop", was selected as participant at this workshop from a population of applicants due to the specific work performed in the bioinformatics field. The workshop was organized by the Human Microbiome Project (HMP) consortium and the Institute of Genome Sciences, University of Maryland Medical School, June 2017, Baltimore, MD, USA
-* "Bio-Docklets: virtualization containers for single-step execution of NGS pipelines". GWU-FDA Symposium on Data Standards and Interoperability, National Institutes of Health, March 2017, Rockville, MD, USA
-* "Building the Next Generation of Bioinformatics Infrastructures for NGS Data Analysis", Univ. of Michigan, Dept. of Computational Medicine and Bioinformatics seminar series, January 2017, Ann Arbor, MI, USA
-* "A Platform for Developing Bioinformatics Analytics for Cloud, Cluster and Desktop Computers", presented at: Dept. of Biological Sciences, Lehman College, City University of New York, November 2016, NY, USA
-* "Leveraging cloud computing technologies for large-scale genome sequence data analysis, and the Cloud BioLinux platform", presented at: Cloud Computing in Bioinformatics 2012, Center For Genomic Regulation, Barcelona, Spain; Translational Bioinformatics On The Cloud Conference 2012, New Brunswick, NJ, USA; NIAID Bioinformatics Festival 2012, National Institutes of Health, Bethesda, MD, USA; NIAID Genomics Standards Consortium Conference 2011, European Bioinformatics Institute, Hinxton, UK; NIAID Cloud Computing (Chair), Next-Gen Sequencing Data Management 2010, Providence, RI, USA
-* "South Africa National Research Network Workshop - Cloud BioLinux for High Performance Data Analysis", Center of High Performance Computing, December 2011, Johannesburg, South Africa
-* "Solutions for Genome Sequence Data Analysis", National Institutes of Health, University of Limpopo, June 2011, South Africa
-* "Security and Resilience, Scale-Free Metabolic Networks", Institute of Human and Machine Cognition, April 2011, Ocala, FL, USA
-
-== Academic and Professional Honors
-
-* 2019 Clinical and Translational Science Center Honors Award
-* 2018 Proposal Development / Faculty Research Award, City University of New York
-* 2017 President's Travel Award, Hunter College, City University of New York
-* 2015 Entrepreneurship Lab NYC Selected Top 20 Business Plan (300+ entries)
-* 2011 Bioinformatics Open Source Conference – Best Audience Voted Presentation Award
-* 2008 Virginia Tech Graduate Association Executive Board Elected Member
-* 2008 Virginia Tech Outstanding Interdisciplinary Doctoral Student Award
-* 2008 Horace E. Alphin Doctoral Tuition Scholarship
-* 2007 Virginia Tech Graduate Student Assembly Research Grant
-* 2006 James and Ina Mae Doctoral Tuition Scholarship
-
-== Membership in Professional Societies
-
-* NCI Containers and Workflows Interest Group - NIH Data Science (since 2017)
-* High-performance Integrated Virtual Environment (HIVE) Consortium, FDA-GWU (since 2016)
-* IEEE Biological Compute Objects (BCO) Working Group (since 2015)
-* Open Bioinformatics Foundation (since 2006)
-* International Society for Computational Biology (since 2008)
-
 == Administration and Faculty Service
 
 *Director of Bioinformatics and Biostatistics Core, U54 Cancer Partnership Hunter College / Temple University (CCHDR, 2018-Present):* Designed and implemented bioinformatics software that is foundational to the partnership research. In addition, I collaborated extensively with partnership investigators that are non-technical users, and helping them to easily access and manage large-scale genomic datasets and run bioinformatics data pipelines, enabling investigators to easily collaborate, and exchange data and analysis results.
@@ -212,8 +187,23 @@ In addition to the courses above, I have mentored and trained many undergraduate
 
 *Faculty Advisory Committee of Data Science at CUNY, Office of the Vice Chancellor for Research (2016-2017):* I contributed to the creation of a catalogue of all the academic programs, from community-college certificate programs to Graduate Center doctoral programs that have a focus in or relevance to data science, and wrote as Principal Investigator a proposal submitted to the National Science Foundation for the creation of a PhD program in Data Science.
 
-== Education and Outreach
+== Academic and Professional Honors
 
-* Mentored on bioinformatics research the undergraduate student Joseph Sayad who is a first-generation college student from Syrian immigrants, and he was able to win a competitive scholarship, and subsequently join Washington University's PhD program in Computer Science, becoming the first scientist in his family.
-* *Mentor, Science Research Mentoring Program (SRMP), American Museum of Natural History*: supervised two minority high-school students performing bioinformatics research, students were accepted to Stanford University and University of Pittsburgh.
-* *Mentor, Urban Barcoding Microbiome Program (UBMP), Cold Spring Harbor Laboratory*: supervised two minority high-school students performing bioinformatics research, students were accepted to Carnegie Mellon University and Hunter College.
+* 2019: Clinical and Translational Science Center Honors Award
+* 2018: Proposal Development / Faculty Research Award, City University of New York
+* 2017: President's Travel Award, Hunter College, City University of New York
+* 2015: Entrepreneurship Lab NYC Selected Top 20 Business Plan (300+ entries)
+* 2011: Bioinformatics Open Source Conference – Best Audience Voted Presentation Award
+* 2008: Virginia Tech Graduate Association Executive Board Elected Member
+* 2008: Virginia Tech Outstanding Interdisciplinary Doctoral Student Award
+* 2008: Horace E. Alphin Doctoral Tuition Scholarship
+* 2007: Virginia Tech Graduate Student Assembly Research Grant
+* 2006: James and Ina Mae Doctoral Tuition Scholarship
+
+== Membership in Professional Societies
+
+* NCI Containers and Workflows Interest Group - NIH Data Science (since 2017)
+* High-performance Integrated Virtual Environment (HIVE) Consortium, FDA-GWU (since 2016)
+* IEEE Biological Compute Objects (BCO) Working Group (since 2015)
+* Open Bioinformatics Foundation (since 2006)
+* International Society for Computational Biology (since 2008)
