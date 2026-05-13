@@ -12,7 +12,6 @@ https://scholar.google.com/citations?hl=en&user=GGsQkQ8AAAAJ&view_op=list_works&
 
 == AI Interpretability - Safety Training
 
-* Selected for *https://www.meridiancambridge.org/research-accelerator-week[Research Accelerator Week]*, Meridian - Cambridge, May 2026, to develop a competitive research proposal for Coefficient Giving
 * *https://www.iaseai.org/our-programs/iaseai26[International Association for Safe and Ethical AI]* Member and Conference Invitee, UNESCO, France, Spring 2026
 * *https://ai-evaluation.org/[International AI Evaluation]* program participant, Spring 2026
 * *https://www.aisafety.camp/#h.t14iaqf5qbl7[AI Safety Camp]* mentor/project lead for Fall 2025, "AutoCircuit: Automated Discovery of Interpretable Reasoning Patterns in LLMs", https://docs.google.com/document/d/1Mv1JYPQ-xvbgk_eoeMG5anaVEIyeG970UIEP_HTFjN4/edit[full project description]
