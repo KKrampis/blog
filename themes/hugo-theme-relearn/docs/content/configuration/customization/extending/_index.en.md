@@ -38,7 +38,7 @@ For example, to create a shortcode called `myshortcode` that needs the `jquery` 
     ...
     ````
 
-2. {{% badge style="cyan" icon="gears" title=" " %}}Option{{% /badge %}} Add this to your `hugo.toml`:
+2. {{% badge style="option" %}}Option{{% /badge %}} Add this to your `hugo.toml`:
 
     {{< multiconfig file=hugo section=params >}}
     [relearn.dependencies]
@@ -66,7 +66,7 @@ See the `math`, `mermaid`, and `openapi` shortcodes for examples.
 For advanced customization, you can use the dependency loader in your own partials:
 
 ````go
-{{- partial "dependencies.gotmpl" (dict "page" . "location" "mylocation") }}
+{{- partial "dependencies.html" (dict "page" . "location" "mylocation") }}
 ````
 {{% /notice %}}
 

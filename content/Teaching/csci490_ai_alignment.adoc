@@ -1,0 +1,149 @@
+---
+title: "Principles of AI Alignment and Safety"
+---
+
+CSCI 490 • Spring 2027
+
+== 🛡️ Course Overview
+
+A project-centered course that builds practical and theoretical competencies
+in AI alignment research engineering. Students are immersed in the methods
+and open problems of technical AI safety — covering the internals of large
+language models, mechanistic interpretability, reinforcement learning from
+human feedback, and safety evaluation methodology. The course progresses from
+deep learning fundamentals through transformer mechanistic interpretability,
+reinforcement learning, LLM evaluation, and alignment science over twelve
+weekly synchronous sessions.
+
+*Credits*
+
+3 Credits (Lecture)
+
+*Level*
+
+400
+
+*Format*
+
+Online synchronous +
+Weekly sessions: 2 hours 30 minutes (Tuesdays 10:00 AM – 1:00 PM ET via Zoom)
+
+*Prerequisites:* Python proficiency (CSCI 127 or higher); linear algebra and
+basic calculus (MATH 155 / 150 or equivalent)
+
+== 📚 Course Syllabus
+
+=== Unit I — Fundamentals of Deep Learning
+
+[.week-number]#Week 1:# [.topic]#PyTorch Fundamentals & Practical Deep Learning Skills#
+[.description]#Core concepts review (neural networks, linear algebra, probability,
+information theory, KL divergence); einops/einsum tensor manipulation; batched
+tensor operations via a ray tracing exercise; GPU-style parallelism; coding best
+practices and type annotations#
+
+[.week-number]#Week 2:# [.topic]#CNNs, ResNets & Optimization#
+[.description]#Building nn.Module subclasses; training loops with dataloaders and
+validation; implementing convolutions from scratch; batch normalization; assembling
+ResNet34 and loading pretrained ImageNet weights; SGD, RMSprop, and Adam
+implemented from scratch; loss landscape visualization; Weights & Biases for
+experiment tracking and hyperparameter sweeps; introduction to distributed
+training#
+
+[.week-number]#Week 3:# [.topic]#Backpropagation & Generative Models | Quiz 1#
+[.description]#Computational graphs and automatic differentiation; implementing a
+complete autograd framework from scratch (forward pass, topological sort, backward
+pass); variational autoencoders (VAEs) — encoder/decoder, ELBO loss,
+reparameterization trick; generative adversarial networks (GANs) — adversarial
+training dynamics, discriminator and generator objectives; transposed convolutions#
+
+=== Unit II — Transformer Architecture & Mechanistic Interpretability
+
+[.week-number]#Week 4:# [.topic]#Transformer from Scratch#
+[.description]#GPT-2 style decoder transformer: multi-head self-attention,
+positional encodings, layer normalization, MLP layers, residual stream;
+implementing the full forward pass in PyTorch following the TransformerLens
+architecture; tokenization; cross-entropy language modeling loss; autoregressive
+text generation with greedy, top-k, and nucleus sampling#
+
+[.week-number]#Week 5:# [.topic]#Mechanistic Interpretability I: TransformerLens & Induction Heads#
+[.description]#TransformerLens library: loading HookedTransformer models, caching
+activations, tokenizer usage; circuitsvis for attention pattern visualization;
+induction heads — identifying in-context learning circuits; hook-based ablation;
+factored QK and OV matrix analysis; reverse-engineering induction circuits from
+weights using composition scores#
+
+[.week-number]#Week 6:# [.topic]#Mechanistic Interpretability II: Probing, Function Vectors & Model Steering | Quiz 2#
+[.description]#Linear probes on residual stream activations to detect internal
+representations; probing for deceptive reasoning; nnsight library for causal
+interventions on large models (GPT-J-6B); task-encoding hidden states (h-vectors);
+reproducing function vector results; steering vectors in GPT2-XL — replicating
+behavioral changes from Turner et al.#
+
+[.week-number]#Week 7:# [.topic]#Mechanistic Interpretability III: Sparse Autoencoders & IOI Circuits#
+[.description]#Sparse autoencoders (SAEs): theory, training objective (L1 +
+reconstruction loss), monosemantic feature extraction, feature visualization;
+indirect object identification (IOI) — full circuit replication in GPT-2 Small
+including name mover heads, duplicate token heads, and induction heads; path
+patching; logit lens and logit attribution#
+
+[.week-number]#Week 8:# [.topic]#Mechanistic Interpretability IV: Superposition & Toy Models#
+[.description]#The superposition hypothesis: why neural networks represent more
+features than dimensions; polysemanticity; feature geometry and the role of
+sparsity; training SAEs on toy superposition models; implications for scalable
+interpretability; connection to monosemanticity research at Anthropic#
+
+=== Unit III — Reinforcement Learning & RLHF
+
+[.week-number]#Week 9:# [.topic]#RL Fundamentals, DQN & Policy Gradients#
+[.description]#Markov decision processes; policies, value functions, and Bellman
+equations; analytic solutions (policy iteration, value iteration); sampling-based
+methods (multi-armed bandits, ε-greedy, UCB); Deep Q-Networks (DQN) with
+experience replay and target networks; OpenAI Gym environments; Vanilla Policy
+Gradient (VPG) with baseline and reward-to-go#
+
+[.week-number]#Week 10:# [.topic]#PPO & Reinforcement Learning from Human Feedback | Quiz 3#
+[.description]#Proximal Policy Optimization (PPO): clipped surrogate objective,
+entropy bonus, generalized advantage estimation (GAE); implementing and training a
+PPO agent; reward model training from human preference comparisons; complete RLHF
+pipeline — supervised fine-tuning, reward modeling, and PPO-based alignment applied
+to a transformer language model#
+
+=== Unit IV — LLM Evaluation & Alignment Science
+
+[.week-number]#Week 11:# [.topic]#LLM Evaluation: Threat Modeling, Dataset Generation & Inspect#
+[.description]#Introduction to LLM safety evaluations and why they matter; LLM API
+usage basics; alignment faking as a worked case study; threat modeling and safety
+cases; evaluation specification and design; synthetic dataset construction and
+quality control; running evaluations at scale using the UK AISI Inspect framework;
+interpreting and communicating eval results#
+
+[.week-number]#Week 12:# [.topic]#LLM Agents & Alignment Science#
+[.description]#LLM agent architectures: tool use, agent loops, multi-step reasoning;
+agent evaluation methodologies; emergent misalignment in language models —
+power-seeking, sycophancy, deceptive alignment, sandbagging, corrigibility, and
+self-preservation; theoretical frameworks for the science of misalignment;
+mechanistic analysis of chain-of-thought and reasoning model internals; LLM
+psychology and persona vectors#
+
+== 🎯 Learning Outcomes
+
+Students will be able to:
+
+[.badge]#Implement Deep Learning from Scratch# [.badge]#Build & Train Transformers#
+[.badge]#Apply Mechanistic Interpretability# [.badge]#Train RL & PPO Agents#
+[.badge]#Design Safety Evaluations# [.badge]#Analyze Alignment Failure Modes#
+
+== 🔬 Hands-On Experience
+
+Implement neural network components — CNNs, ResNets, and a full backpropagation
+framework — from scratch in PyTorch. Build and train GPT-2 style transformer
+language models end-to-end. Apply TransformerLens hooks, induction head detection,
+activation patching, IOI circuit analysis, function vectors, and sparse
+autoencoders to reverse-engineer the internal computations of language models.
+Train reinforcement learning agents using DQN, VPG, and PPO, and implement a
+complete RLHF pipeline. Design threat models, generate synthetic evaluation
+datasets, and execute model safety evaluations using the Inspect framework.
+
+*Grading:* Weekly Coding Assignments (60%, lowest 2 of 10 dropped) • Quizzes — Weeks 3, 6, 10 (30%) • Participation & Discussion (10%)
+
+*Instructor: Prof. Konstantinos Krampis* +

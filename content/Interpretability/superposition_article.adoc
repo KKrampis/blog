@@ -1,5 +1,5 @@
 ---
-Title: Superposition in Large Language Models - Understanding Feature Representation
+Title: Superposition in LLMs and Feature Representation
 ---
 
 == Introduction

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoding the Language of the Cell</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <style>
+        .reveal section img {
+            background: none;
+            border: none;
+            box-shadow: none;
+            max-height: 80vh;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        .reveal h2 {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+        }
+        .reveal p {
+            font-size: 0.9em;
+            margin-top: 1em;
+        }
+        .slide-number {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- Slide 1 -->
+            <section>
+                <img src="pdf_images/slide_01.png" alt="Title Slide">
+            </section>
+
+            <!-- Slide 2 -->
+            <section>
+                <h2>The Data Landscape: High Dimensionality & The Sparsity Problem</h2>
+                <img src="pdf_images/slide_02.png" alt="Data Landscape">
+                <p>93+ million cells, ~20,000 gene dimensions, >90% zeros - the fundamental challenge of single-cell transcriptomics</p>
+            </section>
+
+            <!-- Slide 3 -->
+            <section>
+                <h2>The Paradigm Shift: Bespoke vs. Foundation Models</h2>
+                <img src="pdf_images/slide_03.png" alt="Paradigm Shift">
+                <p>Transfer learning leverages knowledge from 30M+ cells to analyze limited datasets</p>
+            </section>
+
+            <!-- Slide 4 -->
+            <section>
+                <h2>The Core Analogy: If DNA is Code, Expression is Language</h2>
+                <img src="pdf_images/slide_04.png" alt="Core Analogy">
+                <p>Drawing parallels between NLP concepts and single-cell transcriptomics</p>
+            </section>
+
+            <!-- Slide 5 -->
+            <section>
+                <h2>Under the Hood: The Transformer and Self-Attention</h2>
+                <img src="pdf_images/slide_05.png" alt="Transformer Architecture">
+                <p>Context-aware embeddings capture gene regulatory relationships dynamically</p>
+            </section>
+
+            <!-- Slide 6 -->
+            <section>
+                <h2>Tokenization: How Do We 'Read' a Cell?</h2>
+                <img src="pdf_images/slide_06.png" alt="Tokenization Strategies">
+                <p>Strategy A: Value binning (scGPT) vs. Strategy B: Rank value encoding (Geneformer)</p>
+            </section>
+
+            <!-- Slide 7 -->
+            <section>
+                <h2>Spotlight: Geneformer (The Rank-Based Encoder)</h2>
+                <img src="pdf_images/slide_07.png" alt="Geneformer">
+                <p>Masked language modeling on 30M-104M+ transcriptomes. Robust in few-shot learning for rare diseases.</p>
+            </section>
+
+            <!-- Slide 8 -->
+            <section>
+                <h2>Spotlight: scGPT (The Generative All-Rounder)</h2>
+                <img src="pdf_images/slide_08.png" alt="scGPT">
+                <p>33M+ cells with condition tokens. Can generate new 'virtual' cells and integrate multi-omics data.</p>
+            </section>
+
+            <!-- Slide 9 -->
+            <section>
+                <h2>Emerging Architectures: Efficiency with GeneMamba</h2>
+                <img src="pdf_images/slide_09.png" alt="GeneMamba">
+                <p>Bi-Mamba architecture achieves linear scaling O(N) for processing 50M+ cells with lower hardware requirements</p>
+            </section>
+
+            <!-- Slide 10 -->
+            <section>
+                <h2>Downstream Task I: Automated Annotation & Integration</h2>
+                <img src="pdf_images/slide_10.png" alt="Annotation and Integration">
+                <p>Zero-shot cell type prediction and explicit removal of technical noise using batch tokens</p>
+            </section>
+
+            <!-- Slide 11 -->
+            <section>
+                <h2>Downstream Task II: In Silico Perturbation</h2>
+                <img src="pdf_images/slide_11.png" alt="In Silico Perturbation">
+                <p>Virtual screening of therapeutic targets and mechanism discovery through state shifts</p>
+            </section>
+
+            <!-- Slide 12 -->
+            <section>
+                <h2>The Next Frontier: Spatial Transcriptomics (ST)</h2>
+                <img src="pdf_images/slide_12.png" alt="Spatial Transcriptomics">
+                <p>The resolution mismatch: 10-20 cells per spot. Goal: AI-powered deconvolution</p>
+            </section>
+
+            <!-- Slide 13 -->
+            <section>
+                <h2>AI in Spatial Omics: Integrating Vision and Sequence</h2>
+                <img src="pdf_images/slide_13.png" alt="Spatial Omics AI">
+                <p>Cross-modal attention fusion for imputation, super-resolution, and niche identification</p>
+            </section>
+
+            <!-- Slide 14 -->
+            <section>
+                <h2>Critical Analysis: Challenges & Limitations</h2>
+                <img src="pdf_images/slide_14.png" alt="Challenges">
+                <p>Data bias, hallucinations, and the 'black box' interpretability problem</p>
+            </section>
+
+            <!-- Slide 15 -->
+            <section>
+                <h2>The Future: Model-Centric Biology</h2>
+                <img src="pdf_images/slide_15.png" alt="Future Vision">
+                <p>From cataloging cell parts to simulating cellular language. Resources: CELLxGENE Discover, Hugging Face Model Hub</p>
+            </section>
+
+            <!-- Thank You Slide -->
+            <section>
+                <h1>Thank You</h1>
+                <h3>Questions?</h3>
+                <p style="margin-top: 2em;">
+                    <small>Senior Bioinformatics Concentration | Advanced Transcriptomics Lecture Series</small>
+                </p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+            touch: true,
+            overview: true,
+            keyboard: true,
+            fragments: true,
+            help: true,
+            showNotes: false,
+            autoPlayMedia: null,
+            preloadIframes: null,
+            mouseWheel: false,
+            hideAddressBar: true,
+            width: 1280,
+            height: 720,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2.0
+        });
+    </script>
+</body>
+</html>

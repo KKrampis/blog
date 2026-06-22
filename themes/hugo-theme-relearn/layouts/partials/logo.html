@@ -1,3 +1,1 @@
-<a id="R-logo" href="{{ partial "permalink.gotmpl" (dict "to" .Site.Home) }}">
-  <img src="{{"me-circle.png" | relURL}}" alt="brand logo">
-</a>
+{{- partialCached "auto-logo.html" site.Home }}

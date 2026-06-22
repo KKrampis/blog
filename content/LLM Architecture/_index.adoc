@@ -1,5 +1,6 @@
 ---
 title: "AI Foundations"
+weight: 2
 ---
 
 This section explores the fundamental concepts underlying modern artificial intelligence systems, focusing on the mathematical foundations and architectural principles that drive deep learning. The content covers three essential areas: the basic structure and function of artificial neural networks, the attention mechanism that revolutionized natural language processing, and the optimization algorithms that enable these systems to learn from data. Together, these topics provide a comprehensive foundation for understanding how contemporary AI systems are designed, trained, and deployed to solve complex real-world problems.

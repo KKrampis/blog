@@ -1,5 +1,6 @@
 ---
 title: "CV and Research"
+weight: 1
 ---
 
 Associate Professor, Hunter College, City University of New York
