@@ -3,7 +3,7 @@ title: "Teaching at CUNY"
 ---
 
 
-**Transcriptomics and AI for Genome Analysis** (BIO/CS 37105-77105) introduces
+**AI Approaches for Genomic Analysis** (BIO/CS 37105-77105) introduces
 students to the intersection of RNA biology and artificial intelligence. It
 covers the fundamentals of gene expression and single-cell RNA sequencing,
 progressing through computational analysis techniques and into machine learning
@@ -11,7 +11,7 @@ and transformer-based models applied to biological data. The capstone focus is
 on virtual cell modeling — using AI to predict how cells respond to genetic
 perturbations without wet-lab experiments.
 
-**Transformer Architecture LLMs and Mechanistic Interpretability** (BIO/CS 47102-79006)
+**LLM Foundations and Mechanistic Interpretability** (BIO/CS 47102-79006)
 takes a deeper dive into the inner workings of the AI models introduced in the
 first course. Students build transformers from scratch, study the mathematics of
 self-attention, and then pivot to mechanistic interpretability — a research
@@ -19,3 +19,19 @@ discipline focused on reverse-engineering what neural networks actually compute.
 Topics progress from toy models and superposition through circuit analysis,
 sparse autoencoders, and attribution graphs, culminating in real-world
 applications like model steering and AI safety.
+
+**Foundations of AI Alignment and Safety** (CSCI 490) is a project-centered
+course that builds practical and theoretical competencies in AI alignment
+research engineering. Students progress through four units over twelve weeks:
+deep learning fundamentals (implementing CNNs, ResNets, VAEs, and GANs from
+scratch in PyTorch); transformer mechanistic interpretability (building GPT-2
+style models end-to-end, then applying TransformerLens, sparse autoencoders,
+induction head analysis, and circuit-level techniques such as indirect object
+identification); reinforcement learning and RLHF (training DQN, policy gradient,
+and PPO agents, culminating in a complete RLHF pipeline to align a language
+model to human preferences); and LLM evaluation and alignment science (threat
+modeling, synthetic dataset generation, and running safety evaluations with the
+UK AISI Inspect framework). The capstone focus is on analyzing alignment failure
+modes — including emergent misalignment, deceptive alignment, sandbagging, and
+sycophancy — grounded in both experimental results and the theoretical
+literature on AI safety.

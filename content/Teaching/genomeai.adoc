@@ -1,5 +1,5 @@
 ---
-title: "Trascriptomics and AI approaches for genome analysis"
+title: "AI Approaches for Genomic Analysis"
 ---
 
 BIO 37105 / 77105 • SPRING 2026
