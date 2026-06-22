@@ -89,8 +89,6 @@ or if there exists a digit-wise encoding in the model's internal computations. T
 method, the authors analyze how accurately a model's hidden states can be decoded to extract
 individual digit values, ultimately confirming the base-10 representation hypothesis.
 
-
-
 LITERATURE CITED:
 
 Levy, Amit Arnold, and Mor Geva. 2024. "Language Models Encode Numbers Using Digit Representations in Base 10." arXiv, October 2024. https://arxiv.org/abs/2410.11781.
