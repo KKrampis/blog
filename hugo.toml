@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Prof. Krampis Blog'
+title = 'Solving AI Alignment'
 theme = "hugo-theme-relearn"
 
 [markup]
@@ -19,4 +19,7 @@ theme = "hugo-theme-relearn"
 [params]
   math = true
   themeVariant = ['zen-dark', 'zen-light']
-  linkTitle = 'AI Interpretability Writings'
+  linkTitle = 'Solving AI Alignment'
+
+  [params.logo]
+    src = '/me-circle.png'

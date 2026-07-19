@@ -1,5 +1,5 @@
 ---
-title: "LLM Foundations and Mechanistic Interpretability"
+title: "Semester course: LLM Foundations and Mechanistic Interpretability"
 ---
 
 BIO 47102 / 79006 • 2025

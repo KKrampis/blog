@@ -1,0 +1,10 @@
+#R-logo .logo-title {
+    font-size: 0.85rem;
+}
+
+#R-logo .logo-image img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}

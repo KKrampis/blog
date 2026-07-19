@@ -1,5 +1,5 @@
 ---
-title: "AI Approaches for Genomic Analysis"
+title: "Semester course: AI Approaches for Genomic Analysis"
 ---
 
 BIO 37105 / 77105 • SPRING 2026

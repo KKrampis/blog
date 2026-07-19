@@ -1,5 +1,5 @@
 ---
-title: "Principles of AI Alignment and Safety"
+title: "Semester course: Principles of AI Alignment and Safety"
 ---
 
 CSCI 490 • Spring 2027
