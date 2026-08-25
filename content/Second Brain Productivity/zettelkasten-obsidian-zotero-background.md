@@ -3,10 +3,7 @@ title: "Zettelkasten, Obsidian, and Synced Annotations"
 date: 2026-08-25
 draft: false
 description: "The ideas behind the Zettelkasten method, how Obsidian made linked notes mainstream, and where Zotero fits as the annotation layer underneath."
-tags: ["zettelkasten", "obsidian", "zotero", "neovim", "obsidian-nvim", "markdown-oxide", "second-brain", "workflow"]
 ---
-
-# Zettelkasten, Obsidian, and Synced Annotations
 
 Behind any workflow for turning reading into linked notes sits a fairly old
 idea about how notes should be structured, a piece of software that made

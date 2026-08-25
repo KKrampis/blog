@@ -3,10 +3,7 @@ title: "A Workflow for Turning PDF Reading Into Linked Notes"
 date: 2026-08-25
 draft: false
 description: "How to capture Zathura reading highlights into an Obsidian-style vault via a shell script, with wiki-links resolved by markdown-oxide inside Neovim."
-tags: ["zathura", "neovim", "obsidian", "markdown-oxide", "zettelkasten", "pdf", "workflow"]
 ---
-
-# A Workflow for Turning PDF Reading Into Linked Notes
 
 Reading in [Zathura](https://pwmt.org/projects/zathura/) has a particular
 appeal: it's fast, keyboard-driven, and deliberately minimal. It renders a

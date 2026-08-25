@@ -1,7 +1,6 @@
 ---
 title: "Recovering Feature Hierarchies in Sparse Autoencoders via Co-firing Statistics and LLM AutoInterp"
 date: 2026-07-23
-tags: ["mechanistic-interpretability", "sparse-autoencoders", "transformers", "gemma", "feature-geometry"]
 ---
 
 ## Abstract
